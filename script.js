@@ -10,6 +10,7 @@ function searchPhr() {
       return response.json();
     })
     .then((data) => {
+      const marked = window.marked; // get the marked library from the global window object
       const matchingEntries = data.entries.filter((entry) => {
         return (
           marked(entry.desc).toLowerCase().includes(searchTerm) ||
