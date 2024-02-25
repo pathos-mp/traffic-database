@@ -4,7 +4,7 @@ async function searchPhrase() {
     const searchTerm = document.getElementById("search-bar").value;
   
     // Fetch the data from the JSON file
-    const response = await fetch("phrases.json");
+    const response = await fetch("https://vasekstolba.github.io/Pages-Tests/phrases.json");
   
     // Convert the response to JSON
     const data = await response.json();
