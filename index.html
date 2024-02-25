@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <title>Search</title>
     <style>
       .highlight {
-      background-color: yellow;
+        background-color: yellow;
       }
     </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.11/marked.min.js"></script>
-    <title>Search Phrase</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
-    <input type="text" id="search-bar" placeholder="Enter a search term" />
+    <input type="text" id="search-bar" placeholder="Search..." />
     <button onclick="searchPhr()">Search</button>
     <div id="result"></div>
-    <script src="script.js"></script>
   </body>
 </html>
