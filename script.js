@@ -1,18 +1,14 @@
 function searchPhr(searchTerm) {
   const resultDiv = document.getElementById("result");
-  resultDiv.innerHTML = "";
 
   fetch("data.json")
     .then((response) => {
       if (!response.ok) {
-        throw new Error("HTTP error " + response.status);
+        throw new Error("Network response was not ok");
       }
       return response.json();
     })
     .then((data) => {
-      const md = window.markdownit();
-      let matchingEntries = [];
-
       if (searchTerm.includes(":")) {
         const [entryName, searchValue] = searchTerm.split(":");
         matchingEntries = data.entries.filter((entry) => {
