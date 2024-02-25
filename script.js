@@ -2,6 +2,23 @@ function searchPhr() {
   const searchTerm = document.getElementById("search-bar").value.toLowerCase();
   const resultDiv = document.getElementById("result");  resultDiv.innerHTML = "";
 
+  const md = window.markdownit({
+    html: false,
+    linkify: false,
+    typographer: false
+  });
+
+  md.renderer.rules.heading_open = (tokens, idx) => {
+    const token = tokens[idx];
+    const text = token.content.trim();
+    const id = token.attrGet('id') || slugify(text);
+    token.attrSet('id', id);
+    token.attrSet('class', 'title');
+    return `<h${token.tag} id="${id}">${text}</h${token.tag}>`;
+  };
+
+  const slugify = (str) => str.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+
   fetch("data.json")
     .then((response) => {
       if (!response.ok) {
@@ -10,7 +27,6 @@ function searchPhr() {
       return response.json();
     })
     .then((data) => {
-      const md = window.markdownit(); // get the markdown-it library from the global window object
       const matchingEntries = data.entries.filter((entry) => {
         return (
           md.render(entry.desc).toLowerCase().includes(searchTerm) ||
