@@ -12,7 +12,7 @@ function searchPhr() {
     .then((data) => {
       const matchingEntries = data.entries.filter((entry) => {
         return (
-          entry.desc.toLowerCase().includes(searchTerm) ||
+          marked(entry.desc).toLowerCase().includes(searchTerm) ||
           (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm))
         );
       });
@@ -23,8 +23,8 @@ function searchPhr() {
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
           let propertyName = "";
-          if (entry.desc.toLowerCase().includes(searchTerm)) {
-            highlightedText = entry.desc.replace(
+          if (marked(entry.desc).toLowerCase().includes(searchTerm)) {
+            highlightedText = marked(entry.desc).replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
