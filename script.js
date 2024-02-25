@@ -13,10 +13,21 @@ function searchPhr() {
     .then((data) => {
       const md = window.markdownit();
       const matchingEntries = data.entries.filter((entry) => {
-        return (
-          md.render(entry.desc).toLowerCase().includes(searchTerm) ||
-          (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm))
-        );
+        const descRendered = md.render(entry.desc).toLowerCase();
+        const descIncludesSearchTerm = descRendered.includes(searchTerm);
+        const shortUrlIncludesSearchTerm = entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm);
+        const nameIncludesSearchTerm = entry.name.toLowerCase() === searchTerm;
+
+        if (nameIncludesSearchTerm) {
+          return {
+            name: entry.name,
+            desc: entry.desc,
+            dateLastActive: entry.dateLastActive,
+            shortUrl: entry.shortUrl
+          };
+        }
+
+        return descIncludesSearchTerm || shortUrlIncludesSearchTerm;
       });
 
       if (matchingEntries.length === 0) {
@@ -25,7 +36,7 @@ function searchPhr() {
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
           let propertyName = "";
-          if (md.render(entry.desc).toLowerCase().includes(searchTerm)) {
+          if (entry.desc && md.render(entry.desc).toLowerCase().includes(searchTerm)) {
             const updatedDesc = entry.desc.replace(/(?=#\w+)\#/g, "# "); // add a space after the hashtag if it's followed by a word
             highlightedText = md.render(updatedDesc).replace(
               new RegExp("(" + searchTerm + ")", "gi"),
@@ -49,6 +60,7 @@ function searchPhr() {
             </div>
           `;
         });
+
         resultDiv.innerHTML = highlightedEntries.join("");
       }
     })
