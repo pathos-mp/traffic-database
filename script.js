@@ -1,8 +1,7 @@
 function searchPhr() {
   const searchTerm = document.getElementById("search-bar").value.toLowerCase();
-  const resultDiv = document.getElementById("result");  resultDiv.innerHTML = "";
-
-  const marked = window.marked;
+  const resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = "";
 
   fetch("data.json")
     .then((response) => {
@@ -14,7 +13,7 @@ function searchPhr() {
     .then((data) => {
       const matchingEntries = data.entries.filter((entry) => {
         return (
-          marked(entry.desc).toLowerCase().includes(searchTerm) ||
+          entry.desc.toLowerCase().includes(searchTerm) ||
           (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm))
         );
       });
@@ -22,20 +21,15 @@ function searchPhr() {
       if (matchingEntries.length === 0) {
         resultDiv.innerHTML = "No matching entries found.";
       } else {
+        const md = new markdownit();
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
           let propertyName = "";
-          if (entry.desc && marked(entry.desc).toLowerCase().includes(searchTerm)) {
-            highlightedText = marked(entry.desc).replace(
-              new RegExp("(" + searchTerm + ")", "gi"),
-              "<span class='highlight'>$1</span>"
-            );
+          if (entry.desc.toLowerCase().includes(searchTerm)) {
+            highlightedText = md.render(entry.desc);
             propertyName = "Description";
           } else if (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm)) {
-            highlightedText = entry.shortUrl.replace(
-              new RegExp("(" + searchTerm + ")", "gi"),
-              "<span class='highlight'>$1</span>"
-            );
+            highlightedText = md.render(entry.shortUrl);
             propertyName = "Short URL";
           }
           if (!highlightedText) {
@@ -47,8 +41,8 @@ function searchPhr() {
               <p><strong>${propertyName}:</strong> ${highlightedText}</p>
             </div>
           `;
-          });
-          resultDiv.innerHTML = highlightedEntries.join("");
+        }).filter(x => x);
+        resultDiv.innerHTML = highlightedEntries.join("");
       }
     })
     .catch((error) => {
