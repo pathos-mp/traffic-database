@@ -1,0 +1,16 @@
+{
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Hello, world!"
+      },
+      {
+        "id": 2,
+        "phrase": "Goodbye, world!"
+      },
+      {
+        "id": 3,
+        "phrase": "Have a nice day!"
+      }
+    ]
+  }
