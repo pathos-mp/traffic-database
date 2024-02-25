@@ -1,5 +1,5 @@
 // Define the searchPhrase function
-async searchPhrase() {
+async function searchPhrase() {
   // Get the search term from the search bar
   const searchTerm = document.getElementById("search-bar").value.toLowerCase();
 
@@ -12,7 +12,7 @@ async searchPhrase() {
   // Filter the phrases that include the search term
   const phrases = data.phrases.filter((item) => item.phrase.toLowerCase().includes(searchTerm));
 
-  // Display the phrases on the page
+  // Display the phrases on the website
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
   if (phrases.length === 0) {
