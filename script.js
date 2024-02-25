@@ -4,7 +4,12 @@ function searchPhrase() {
   resultDiv.innerHTML = "";
 
   fetch("data.json")
-    .then((response) => response.json())
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("HTTP error " + response.status);
+      }
+      return response.json();
+    })
     .then((data) => {
       const matchingEntries = data.entries.filter((entry) => {
         return (
@@ -31,7 +36,7 @@ function searchPhrase() {
           }
           let highlightedAttachment2 = "";
           if (entry.attachment2) {
-            highlightedAttachment2 = entry.attachment2.replace(
+            highlightedContent = entry.attachment2.replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
