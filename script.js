@@ -1,7 +1,6 @@
 function searchPhr() {
   const searchTerm = document.getElementById("search-bar").value.toLowerCase();
-  const resultDiv = document.getElementById("result");
-  resultDiv.innerHTML = "";
+  const resultDiv = document.getElementById("result");  resultDiv.innerHTML = "";
 
   fetch("data.json")
     .then((response) => {
@@ -11,9 +10,10 @@ function searchPhr() {
       return response.json();
     })
     .then((data) => {
+      const md = window.markdownit(); // get the markdown-it library from the global window object
       const matchingEntries = data.entries.filter((entry) => {
         return (
-          entry.desc.toLowerCase().includes(searchTerm) ||
+          md.render(entry.desc).toLowerCase().includes(searchTerm) ||
           (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm))
         );
       });
@@ -21,15 +21,20 @@ function searchPhr() {
       if (matchingEntries.length === 0) {
         resultDiv.innerHTML = "No matching entries found.";
       } else {
-        const md = new markdownit();
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
           let propertyName = "";
-          if (entry.desc.toLowerCase().includes(searchTerm)) {
-            highlightedText = md.render(entry.desc);
+          if (md.render(entry.desc).toLowerCase().includes(searchTerm)) {
+            highlightedText = md.render(entry.desc).replace(
+              new RegExp("(" + searchTerm + ")", "gi"),
+              "<span class='highlight'>$1</span>"
+            );
             propertyName = "Description";
           } else if (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm)) {
-            highlightedText = md.render(entry.shortUrl);
+            highlightedText = entry.shortUrl.replace(
+              new RegExp("(" + searchTerm + ")", "gi"),
+              "<span class='highlight'>$1</span>"
+            );
             propertyName = "Short URL";
           }
           if (!highlightedText) {
@@ -41,8 +46,8 @@ function searchPhr() {
               <p><strong>${propertyName}:</strong> ${highlightedText}</p>
             </div>
           `;
-        }).filter(x => x);
-        resultDiv.innerHTML = highlightedEntries.join("");
+          });
+          resultDiv.innerHTML = highlightedEntries.join("");
       }
     })
     .catch((error) => {
