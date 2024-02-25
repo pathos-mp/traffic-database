@@ -1,6 +1,6 @@
 function searchPhrase() {
-  const searchTerm = documentgetElementById("search-bar").value.toLowerCase();
-  resultDiv = documentgetElementById("result");  resultDiv.innerHTML =
+  const searchTerm = document.getElementById("search-bar").value.toLowerCase();
+  const resultDiv = document.getElementById("result");  resultDiv.innerHTML = "";
 
   fetch("data.json")
     .then((response) => {
