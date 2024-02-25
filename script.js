@@ -46,8 +46,8 @@ function searchPhr() {
               <p><strong>${propertyName}:</strong> ${highlightedText}</p>
             </div>
           `;
-        }).filter(x => x);
-        resultDiv.innerHTML = highlightedEntries.join("");
+          });
+          resultDiv.innerHTML = highlightedEntries.join("");
       }
     })
     .catch((error) => {
