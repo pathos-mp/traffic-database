@@ -1,6 +1,7 @@
 function searchPhr() {
   const searchTerm = document.getElementById("search-bar").value.toLowerCase();
-  const resultDiv = document.getElementById("result");  resultDiv.innerHTML = "";
+  const resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = "";
 
   fetch("data.json")
     .then((response) => {
@@ -10,7 +11,7 @@ function searchPhr() {
       return response.json();
     })
     .then((data) => {
-      const md = window.markdownit(); // get the markdown-it library from the global window object
+      const md = window.markdownit();
       const matchingEntries = data.entries.filter((entry) => {
         return (
           md.render(entry.desc).toLowerCase().includes(searchTerm) ||
@@ -25,7 +26,8 @@ function searchPhr() {
           let highlightedText = "";
           let propertyName = "";
           if (md.render(entry.desc).toLowerCase().includes(searchTerm)) {
-            highlightedText = md.render(entry.desc).replace(
+            const updatedDesc = entry.desc.replace(/#/g, "# "); // add a space after the hashtag
+            highlightedText = md.render(updatedDesc).replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
@@ -46,8 +48,8 @@ function searchPhr() {
               <p><strong>${propertyName}:</strong> ${highlightedText}</p>
             </div>
           `;
-          });
-          resultDiv.innerHTML = highlightedEntries.join("");
+        });
+        resultDiv.innerHTML = highlightedEntries.join("");
       }
     })
     .catch((error) => {
