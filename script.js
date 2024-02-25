@@ -8,15 +8,6 @@ function searchPhr() {
     typographer: false
   });
 
-  md.renderer.rules.heading_open = (tokens, idx) => {
-    const token = tokens[idx];
-    const text = token.content.trim();
-    const id = token.attrGet('id') || slugify(text);
-    token.attrSet('id', id);
-    token.attrSet('class', 'title');
-    return `<h${token.tag} id="${id}">${text}</h${token.tag}>`;
-  };
-
   const slugify = (str) => str.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 
   fetch("data.json")
@@ -38,11 +29,21 @@ function searchPhr() {
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
           let propertyName = "";
-          if (entry.desc && md.render(entry.desc).toLowerCase().includes(searchTerm)) {
-            highlightedText = md.render(entry.desc).replace(
-              new RegExp("(" + searchTerm + ")", "gi"),
-              "<span class='highlight'>$1</span>"
-            );
+          if (entry.desc) {
+            const desc = md.render(entry.desc);
+            const headers = desc.match(/(#+ .+?)\n/g);
+            if (headers) {
+              headers.forEach((header) => {
+                const text = header.replace(/#+ /, '').trim();
+                const id = slugify(text);
+                highlightedText += `<h2 id="${id}">${text}</h2>`;
+              });
+              const descText = desc.replace(/(#+ .+?)\n/g, '').trim();
+              highlightedText += md.render(descText).replace(
+                new RegExp("(" + searchTerm + ")", "gi"),
+                "<span class='highlight'>$1</span>"
+              );
+            }
             propertyName = "Description";
           } else if (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm)) {
             highlightedText = entry.shortUrl.replace(
