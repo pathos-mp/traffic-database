@@ -26,7 +26,7 @@ function searchPhr() {
           let highlightedText = "";
           let propertyName = "";
           if (md.render(entry.desc).toLowerCase().includes(searchTerm)) {
-            const updatedDesc = entry.desc.replace(/(#\s*\w+)/g, "$1 "); // add a space after the hashtag if it's followed by a word
+            const updatedDesc = entry.desc.replace(/(#\s*\w+)/g, "# "); // add a space after the hashtag if it's followed by a word
             highlightedText = md.render(updatedDesc).replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
