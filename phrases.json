@@ -1,16 +1,22 @@
 {
-    "phrases": [
+    "entries": [
       {
-        "id": 1,
-        "phrase": "Hello, world!"
+        "title": "The One",
+        "content": "He turned in the research paper on Friday; otherwise, he would have not passed the class. I honestly find her about as intimidating as a basket of kittens.",
+        "attachment1": "It's never comforting to know that your fate depends on something as unpredictable as the popping of corn.",
+        "attachment2": "It isn't true that my mattress is made of cotton candy. It took him a while to realize that everything he decided not to change, he was actually choosing. He had a wall full of masks so she could wear a different face every day. I've traveled all around Africa and still haven't found the gnu who stole my scarf.",
       },
       {
-        "id": 2,
-        "phrase": "Goodbye, world!"
+        "title": "Abc v. 123",
+        "content": "Let me help you with your baggage. Courage and stupidity were all he had.",
+        "attachment1": "I really want to go to work, but I am too sick to drive.",
+        "attachment2": "The furnace repairman indicated the heating system was acting as an air conditioner.",
       },
       {
-        "id": 3,
-        "phrase": "Have a nice day!"
+        "title": "You won't believe it",
+        "content": "I love eating toasted cheese and tuna sandwiches. Random words in front of other random words create a random sentence."
+        "attachment1": "The clouds formed beautiful animals in the sky that eventually created a tornado to wreak havoc.",
+        "attachment2": "Her life in the confines of the house became her new normal. He was the type of guy who liked Christmas lights on his house in the middle of July.",
       }
     ]
   }
