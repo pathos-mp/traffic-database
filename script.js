@@ -23,21 +23,25 @@ function searchPhr() {
       } else {
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
+          let propertyName = "";
           if (entry.content.toLowerCase().includes(searchTerm)) {
             highlightedText = entry.content.replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
+            propertyName = "Content";
           } else if (entry.attachment1 && entry.attachment1.toLowerCase().includes(searchTerm)) {
             highlightedText = entry.attachment1.replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
+            propertyName = "Attachment 1";
           } else if (entry.attachment2 && entry.attachment2.toLowerCase().includes(searchTerm)) {
             highlightedText = entry.attachment2.replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
+            propertyName = "Attachment 2";
           }
           if (!highlightedText) {
             return "";
@@ -45,7 +49,7 @@ function searchPhr() {
           return `
             <div>
               <h2><b>${entry.title}</b></h2>
-              <p>${highlightedText}</p>
+              <p><strong>${propertyName}:</strong> ${highlightedText}</p>
             </div>
           `;
         }).filter(x => x);
