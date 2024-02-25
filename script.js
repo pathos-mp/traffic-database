@@ -1,11 +1,11 @@
-function searchPhrase() {
-  const searchTerm = document.getElementById("-bar").value.toLowerCase();
-  resultDiv = documentgetElementById("result");  resultDiv. = "";
+function searchPhr() {
+  const searchTerm = documentgetElementById("search-bar").value.toLowerCase();
+  resultDiv = documentgetElementById("result");  resultDiv.innerHTML =
 
   fetch("data.json")
     .then((response) => {
       if (!response.ok) {
-        throw new Error("HTTP error + response.status);
+        throw new Error("HTTP error " + response.status);
       }
       return response.json();
     })
@@ -22,44 +22,33 @@ function searchPhrase() {
         resultDiv.innerHTML = "No matching entries found.";
       } else {
         const highlightedEntries = matchingEntries.map((entry) => {
-          let highlightedContent = "";
+          let highlightedText = "";
           if (entry.content.toLowerCase().includes(searchTerm)) {
-            highlightedContent = entry.content.replace(
+            highlightedText = entry.content.replace(
+              new RegExp("(" + searchTerm + ")", "gi"),
+              "<span class='highlight'>$1</span>"
+            );
+          } else if (entry.attachment1 && entry.attachment1.toLowerCase().includes(searchTerm)) {
+            highlightedText = entry.attachment1.replace(
+              new RegExp("(" + searchTerm + ")", "gi"),
+              "<span class='highlight'>$1</span>"
+            );
+          } else if (entry.attachment2 && entry.attachment2.toLowerCase().includes(searchTerm)) {
+            highlightedText = entry.attachment2.replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
           }
-          let highlightedAttachment1 = "";
-          if (entry.attachment1 && entry.attachment1.toLowerCase().includes(searchTerm)) {
-            highlightedAttachment1 = entry.attachment1.replace(
-              new RegExp("(" + searchTerm + ")", "gi"),
-              "<span class='highlight'>$1</span>"
-            );
-          }
-          let highlightedAttachment2 = "";
-          if (entry.attachment2 && entry.attachment2.toLowerCase().includes(searchTerm)) {
-            highlightedAttachment2 = entry.attachment2.replace(
-              new RegExp("(" + searchTerm + ")", "gi"),
-              "<span class='highlight'>$1</span>"
-            );
-          }
-          const highlightedProperties = [];
-          if (highlightedContent) {
-            highlightedProperties.push(`<p><strong>Content:</strong> ${highlightedContent}</p>`);
-          }
-          if (highlightedAttachment1) {
-            highlightedProperties.push(`<p><strong>Attachment 1:</strong> ${highlightedAttachment1}</p>`);
-          }
-          if (highlightedAttachment2) {
-            highlightedProperties.push(`<p><strong>Attachment 2:</strong> ${highlightedAttachment2}</p>`);
+          if (!highlightedText) {
+            return "";
           }
           return `
             <div>
               <h2><b>${entry.title}</b></h2>
-              ${highlightedProperties.join("")}
+              <p>${highlightedText}</p>
             </div>
           `;
-        });
+        }).filter(x => x);
         resultDiv.innerHTML = highlightedEntries.join("");
       }
     })
