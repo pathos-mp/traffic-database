@@ -28,10 +28,8 @@ function searchPhr() {
     })
     .then((data) => {
       const matchingEntries = data.entries.filter((entry) => {
-        return (
-          md.render(entry.desc).toLowerCase().includes(searchTerm) ||
-          (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm))
-        );
+        const desc = md.render(entry.desc);
+        return desc.toLowerCase().includes(searchTerm) || (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm));
       });
 
       if (matchingEntries.length === 0) {
@@ -40,7 +38,7 @@ function searchPhr() {
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
           let propertyName = "";
-          if (md.render(entry.desc).toLowerCase().includes(searchTerm)) {
+          if (entry.desc && md.render(entry.desc).toLowerCase().includes(searchTerm)) {
             highlightedText = md.render(entry.desc).replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
