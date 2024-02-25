@@ -3,25 +3,57 @@ function searchPhrase() {
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
 
-  fetch("phrases.json")
+  fetch("data.json")
     .then((response) => response.json())
     .then((data) => {
-      const matchingPhrases = data.phrases.filter(
-        (phrase) => phrase.phrase.toLowerCase().includes(searchTerm)
-      );
+      const matchingEntries = data.entries.filter((entry) => {
+        return (
+          entry.content.toLowerCase().includes(searchTerm) ||
+          entry.attachment1.toLowerCase().includes(searchTerm) ||
+          entry.attachment2.toLowerCase().includes(searchTerm)
+        );
+      });
 
-      if (matchingPhrases.length === 0) {
-        resultDiv.innerHTML = "No matching phrases found.";
+      if (matchingEntries.length === 0) {
+        resultDiv.innerHTML = "No matching entries found.";
       } else {
-        const highlightedPhrases = matchingPhrases.map((phrase) => {
-          const highlightedPhrase = phrase.phrase.replace(
+        const highlightedEntries = matchingEntries.map((entry) => {
+          let highlightedContent = entry.content.replace(
             new RegExp("(" + searchTerm + ")", "gi"),
             "<span class='highlight'>$1</span>"
           );
-          return `<p>${highlightedPhrase}</p>`;
+          let highlightedAttachment1 = "";
+          if (entry.attachment1) {
+            highlightedAttachment1 = entry.attachment1.replace(
+              new RegExp("(" + searchTerm + ")", "gi"),
+              "<span class='highlight'>$1</span>"
+            );
+          }
+          let highlightedAttachment2 = "";
+          if (entry.attachment2) {
+            highlightedAttachment2 = entry.attachment2.replace(
+              new RegExp("(" + searchTerm + ")", "gi"),
+              "<span class='highlight'>$1</span>"
+            );
+          }
+          return `
+            <div>
+              <h2><b>${entry.title}</b></h2>
+              <p><strong>Content:</strong> ${highlightedContent}</p>
+              ${
+                entry.attachment1
+                  ? `<p><strong>Attachment 1:</strong> ${highlightedAttachment1}</p>`
+                  : ""
+              }
+              ${
+                entry.attachment2
+                  ? `<p><strong>Attachment 2:</strong> ${highlightedAttachment2}</p>`
+                  : ""
+              }
+            </div>
+          `;
         });
-
-        resultDiv.innerHTML = highlightedPhrases.join("");
+        resultDiv.innerHTML = highlightedEntries.join("");
       }
     })
     .catch((error) => {
