@@ -2,6 +2,8 @@ function searchPhr() {
   const searchTerm = document.getElementById("search-bar").value.toLowerCase();
   const resultDiv = document.getElementById("result");  resultDiv.innerHTML = "";
 
+  const marked = window.marked;
+
   fetch("data.json")
     .then((response) => {
       if (!response.ok) {
@@ -12,7 +14,7 @@ function searchPhr() {
     .then((data) => {
       const matchingEntries = data.entries.filter((entry) => {
         return (
-          entry.desc.toLowerCase().includes(searchTerm) ||
+          marked(entry.desc).toLowerCase().includes(searchTerm) ||
           (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm))
         );
       });
@@ -23,8 +25,8 @@ function searchPhr() {
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
           let propertyName = "";
-          if (entry.desc.toLowerCase().includes(searchTerm)) {
-            highlightedText = entry.desc.replace(
+          if (entry.desc && marked(entry.desc).toLowerCase().includes(searchTerm)) {
+            highlightedText = marked(entry.desc).replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
@@ -45,8 +47,8 @@ function searchPhr() {
               <p><strong>${propertyName}:</strong> ${highlightedText}</p>
             </div>
           `;
-        }).filter(x => x);
-        resultDiv.innerHTML = highlightedEntries.join("");
+          });
+          resultDiv.innerHTML = highlightedEntries.join("");
       }
     })
     .catch((error) => {
