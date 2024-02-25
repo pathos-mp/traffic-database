@@ -1,4 +1,4 @@
-function searchPhrase() {
+function searchPhr() {
   const searchTerm = document.getElementById("search-bar").value.toLowerCase();
   const resultDiv = document.getElementById("result");  resultDiv.innerHTML = "";
 
