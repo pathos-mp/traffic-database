@@ -12,9 +12,8 @@ function searchPhr() {
     .then((data) => {
       const matchingEntries = data.entries.filter((entry) => {
         return (
-          entry.content.toLowerCase().includes(searchTerm) ||
-          (entry.attachment1 && entry.attachment1.toLowerCase().includes(searchTerm)) ||
-          (entry.attachment2 && entry.attachment2.toLowerCase().includes(searchTerm))
+          entry.desc.toLowerCase().includes(searchTerm) ||
+          (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm))
         );
       });
 
@@ -24,31 +23,25 @@ function searchPhr() {
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
           let propertyName = "";
-          if (entry.content.toLowerCase().includes(searchTerm)) {
-            highlightedText = entry.content.replace(
+          if (entry.desc.toLowerCase().includes(searchTerm)) {
+            highlightedText = entry.desc.replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
-            propertyName = "Content";
-          } else if (entry.attachment1 && entry.attachment1.toLowerCase().includes(searchTerm)) {
-            highlightedText = entry.attachment1.replace(
+            propertyName = "Description";
+          } else if (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm)) {
+            highlightedText = entry.shortUrl.replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
-            propertyName = "Attachment 1";
-          } else if (entry.attachment2 && entry.attachment2.toLowerCase().includes(searchTerm)) {
-            highlightedText = entry.attachment2.replace(
-              new RegExp("(" + searchTerm + ")", "gi"),
-              "<span class='highlight'>$1</span>"
-            );
-            propertyName = "Attachment 2";
+            propertyName = "Short URL";
           }
           if (!highlightedText) {
             return "";
           }
           return `
             <div>
-              <h2><b>${entry.title}</b></h2>
+              <h2><b>${entry.name}</b></h2>
               <p><strong>${propertyName}:</strong> ${highlightedText}</p>
             </div>
           `;
