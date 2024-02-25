@@ -1,4 +1,4 @@
-function searchPhr() {
+function searchPhr(entryName) {
   const searchTerm = document.getElementById("search-bar").value.toLowerCase();
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
@@ -12,12 +12,20 @@ function searchPhr() {
     })
     .then((data) => {
       const md = window.markdownit();
-      const matchingEntries = data.entries.filter((entry) => {
-        return (
-          md.render(entry.desc).toLowerCase().includes(searchTerm) ||
-          (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm))
-        );
-      });
+      let matchingEntries;
+
+      if (entryName) {
+        matchingEntries = data.entries.filter((entry) => {
+          return entry.name.toLowerCase() === entryName.toLowerCase();
+        });
+      } else {
+        matchingEntries = data.entries.filter((entry) => {
+          return (
+            md.render(entry.desc).toLowerCase().includes(searchTerm) ||
+            (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm))
+          );
+        });
+      }
 
       if (matchingEntries.length === 0) {
         resultDiv.innerHTML = "No matching entries found.";
