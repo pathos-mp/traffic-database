@@ -10,10 +10,10 @@ function searchPhr() {
       return response.json();
     })
     .then((data) => {
-      const marked = window.marked; // get the marked library from the global window object
+      const md = window.markdownit(); // get the markdown-it library from the global window object
       const matchingEntries = data.entries.filter((entry) => {
         return (
-          marked(entry.desc).toLowerCase().includes(searchTerm) ||
+          md.render(entry.desc).toLowerCase().includes(searchTerm) ||
           (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm))
         );
       });
@@ -24,8 +24,8 @@ function searchPhr() {
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
           let propertyName = "";
-          if (marked(entry.desc).toLowerCase().includes(searchTerm)) {
-            highlightedText = marked(entry.desc).replace(
+          if (md.render(entry.desc).toLowerCase().includes(searchTerm)) {
+            highlightedText = md.render(entry.desc).replace(
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
