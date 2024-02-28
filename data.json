@@ -1,454 +1,370 @@
 {
     "entries": [
    {
-      "id":"6251a95f9eb6b30755b0bd6e",
-      "address":null,
-      "badges":{
-         "attachmentsByType":{
-            "trello":{
-               "board":0,
-               "card":0
-            }
+         "id":"65df83ee255013c316b6c3b6",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":0
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":false,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":0,
+            "description":true,
+            "due":null,
+            "dueComplete":false,
+            "start":null
          },
-         "location":false,
-         "votes":0,
-         "viewingMemberVoted":false,
-         "subscribed":false,
-         "fogbugz":"",
-         "checkItems":0,
-         "checkItemsChecked":0,
-         "checkItemsEarliestDue":null,
-         "comments":3,
-         "attachments":8,
-         "description":true,
-         "due":null,
-         "dueComplete":false,
-         "start":null
-      },
-      "checkItemStates":[
-         
-      ],
-      "closed":false,
-      "coordinates":null,
-      "creationMethod":null,
-      "dueComplete":false,
-      "dateLastActivity":"2023-01-28T22:25:42.428Z",
-      "desc":"![Department of Justice](https://ridgewaycounty.org/logos/doj-xs.png)\n\n##Criminal Complaint\n\n###Information\n* **Prosecutor:** [stickza](http://www.roblox.com/User.aspx?ID=stickza)\n* **Defendant:** [Cream_sm](http://www.roblox.com/user.aspx?username=Cream_sm)\n* **Submitted on:** 04/04/22 3:00PM\n\n-----\n\n###Statement of Events\n(The following statement was written by the detective in charge of investigating the case, references to evidence have been omitted and may be supplied upon request by the court or a discovery motion by the defense).\n\nOn February 26th, 2022, approximately at 5:26 AM Eastern European Time, I was responding to an active shootout in the Sterling residential area. I was accompanied by State Trooper domieisok. We arrive at the scene, there are two Sheriff’s Office units and one State Police unit already present. The defendant is standing on top of a gray Percivel with their hands up. Immediately as we stop our vehicle, the defendant gets in the Percivel and draws their Stetson M2-A, which is considered a police-grade firearm. \n\nThe defendant then, along with two other shooters, jumps out of their vehicle and immediately opens fire at the surrounding officers. Sheriff’s Deputy J_meesMct is immediately killed by the shots fired by the defendant. Right after, two State Troopers taking cover behind a State Police marked Actila are killed as a result of the shots fired by the defendant and the two other shooters. I open fire and manage to take down the two shooters. \n\nI then continue to return fire to the defendant’s shots, and the defendant is killed. One more shooter then appears to be behind me, and I return fire to their shots. As the defendant’s house is behind me, they respawn and rush to grab a new firearm from a safe in their house. The defendant then rushes out and kills me.\n\nThe defendant is a known member of the notorious criminal organization known as “Gangster Disciple Killers”. I have, along with other Detectives, identified the defendant as one of the leaders of the said organization. The organization often referred to as “GDK”, is known for causing chaos and conducting mass murders of citizens, especially peace officers. The members of the organization own multiple houses in the Sterling residential area and often refer to the whole Sterling area as their territory. \n\nI have personally had tens, if not hundreds of encounters with the defendant and their companies, this case is just about one of them. Almost all the encounters have been some kind of shootings, where the defendant and other members of GDK have been involved in shootouts around Sterling, and Ridgeway County. The murders the defendant has committed add up to hundreds, just within the span of a couple of months.\n\n###Evidence\nUpon discovery or request by the court.\n\n###Witnesses\nUpon discovery or request by the court.",
-      "descData":{
-         "emoji":{
+         "checkItemStates":[
             
-         }
-      },
-      "due":null,
-      "dueReminder":null,
-      "email":null,
-      "idBoard":"628f0be8f059fe2ffb8c43e7",
-      "idChecklists":[
-         
-      ],
-      "idLabels":[
-         "628f0dc94307991ab39913d6"
-      ],
-      "idList":"628f0ee440b34d44e1512a65",
-      "idMembers":[
-         "57b7a3d1b19d25d55a4fd06a"
-      ],
-      "idMembersVoted":[
-         
-      ],
-      "idOrganization":"5fd3c7bafeded04472d1170d",
-      "idShort":245,
-      "idAttachmentCover":null,
-      "labels":[
-         {
-            "id":"628f0dc94307991ab39913d6",
-            "idBoard":"628f0be8f059fe2ffb8c43e7",
-            "name":"Criminal Case",
-            "color":"blue",
-            "uses":139
-         }
-      ],
-      "limits":{
-         "attachments":{
-            "perCard":{
-               "status":"ok",
-               "disableAt":1000,
-               "warnAt":800
-            }
-         },
-         "checklists":{
-            "perCard":{
-               "status":"ok",
-               "disableAt":500,
-               "warnAt":400
-            }
-         },
-         "stickers":{
-            "perCard":{
-               "status":"ok",
-               "disableAt":70,
-               "warnAt":56
-            }
-         }
-      },
-      "locationName":null,
-      "manualCoverAttachment":false,
-      "name":"The State v. cream_sm",
-      "nodeId":"ari:cloud:trello::card/workspace/5fd3c7bafeded04472d1170d/6251a95f9eb6b30755b0bd6e",
-      "pos":1226833.92,
-      "shortLink":"2Hr7c8GR",
-      "shortUrl":"https://trello.com/c/2Hr7c8GR",
-      "staticMapUrl":null,
-      "start":null,
-      "subscribed":false,
-      "url":"https://trello.com/c/2Hr7c8GR/245-the-state-v-creamsm",
-      "cover":{
-         "idAttachment":null,
-         "color":null,
-         "idUploadedBackground":null,
-         "size":"normal",
-         "brightness":"dark",
-         "idPlugin":null
-      },
-      "isTemplate":false,
-      "cardRole":null,
-      "attachments":[
-         {
-            "id":"6253b0354f651f260737967a",
-            "bytes":665526,
-            "date":"2022-04-11T04:36:05.036Z",
-            "edgeColor":null,
-            "idMember":"5c47a4ee3bae461d840d2d38",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"SUMMONS - RSC-CM-264",
-            "previews":[
-               
-            ],
-            "url":"https://trello.com/1/cards/6251a95f9eb6b30755b0bd6e/attachments/6253b0354f651f260737967a/download/State_of_Ridgeway_v._Cream_sm_-_Summons_.pdf",
-            "pos":16384,
-            "fileName":"State_of_Ridgeway_v._Cream_sm_-_Summons_.pdf"
-         },
-         {
-            "id":"6258e8ec7abfdd64cf83edda",
-            "bytes":126987,
-            "date":"2022-04-15T03:39:24.958Z",
-            "edgeColor":null,
-            "idMember":"58616b040961c333ee90fb39",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"CRIMINAL INFORMATION - RSC-CM-264",
-            "previews":[
-               
-            ],
-            "url":"https://trello.com/1/cards/6251a95f9eb6b30755b0bd6e/attachments/6258e8ec7abfdd64cf83edda/download/CRIMINAL_INFORMATION_-_CREAM_SM.pdf",
-            "pos":32768,
-            "fileName":"CRIMINAL_INFORMATION_-_CREAM_SM.pdf"
-         },
-         {
-            "id":"6259f74d22cb240a2b7126dd",
-            "bytes":321409,
-            "date":"2022-04-15T22:53:01.951Z",
-            "edgeColor":null,
-            "idMember":"5cf5664430a7c48d13930eed",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"PROSECUTION'S DISCOVERY SUBMISSION AND MOTION FOR DISCOVERY - RSC-CM-264",
-            "previews":[
-               
-            ],
-            "url":"https://trello.com/1/cards/6251a95f9eb6b30755b0bd6e/attachments/6259f74d22cb240a2b7126dd/download/CCF04152022_0002.pdf",
-            "pos":49152,
-            "fileName":"CCF04152022_0002.pdf"
-         },
-         {
-            "id":"629fac9440486b1197f6f3e6",
-            "bytes":393533,
-            "date":"2022-06-07T19:52:52.996Z",
-            "edgeColor":null,
-            "idMember":"5cf5664430a7c48d13930eed",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"CCRC-CM-264 _ Motion to Strike Exhibit B.pdf",
-            "previews":[
-               
-            ],
-            "url":"https://trello.com/1/cards/6251a95f9eb6b30755b0bd6e/attachments/629fac9440486b1197f6f3e6/download/CCRC-CM-264___Motion_to_Strike_Exhibit_B.pdf",
-            "pos":65536,
-            "fileName":"CCRC-CM-264___Motion_to_Strike_Exhibit_B.pdf"
-         },
-         {
-            "id":"62ac55342f8c813d572c14a4",
-            "bytes":106094,
-            "date":"2022-06-17T10:19:32.099Z",
-            "edgeColor":null,
-            "idMember":"60624ea28b21ef2a010d634d",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"MotionRuling_RSC-CM-264_0619-061722.pdf",
-            "previews":[
-               
-            ],
-            "url":"https://trello.com/1/cards/6251a95f9eb6b30755b0bd6e/attachments/62ac55342f8c813d572c14a4/download/MotionRuling_RSC-CM-264_0619-061722.pdf",
-            "pos":81920,
-            "fileName":"MotionRuling_RSC-CM-264_0619-061722.pdf"
-         },
-         {
-            "id":"62d0d70c2540a53426717998",
-            "bytes":99442,
-            "date":"2022-07-15T02:55:08.597Z",
-            "edgeColor":null,
-            "idMember":"57b7a3d1b19d25d55a4fd06a",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"PROBATION ORDER CREAM SM.pdf",
-            "previews":[
-               
-            ],
-            "url":"https://trello.com/1/cards/6251a95f9eb6b30755b0bd6e/attachments/62d0d70c2540a53426717998/download/PROBATION_ORDER_CREAM_SM.pdf",
-            "pos":98304,
-            "fileName":"PROBATION_ORDER_CREAM_SM.pdf"
-         },
-         {
-            "id":"62d228cfcbb3db38e0703c86",
-            "bytes":95170,
-            "date":"2022-07-16T02:56:15.264Z",
-            "edgeColor":null,
-            "idMember":"60624ea28b21ef2a010d634d",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"Ruling_RSC-CM-264_2256-071522.pdf",
-            "previews":[
-               
-            ],
-            "url":"https://trello.com/1/cards/6251a95f9eb6b30755b0bd6e/attachments/62d228cfcbb3db38e0703c86/download/Ruling_RSC-CM-264_2256-071522.pdf",
-            "pos":114688,
-            "fileName":"Ruling_RSC-CM-264_2256-071522.pdf"
-         },
-         {
-            "id":"62d228f89bbbfd641e298770",
-            "bytes":null,
-            "date":"2022-07-16T02:56:56.409Z",
-            "edgeColor":null,
-            "idMember":"60624ea28b21ef2a010d634d",
-            "isUpload":false,
-            "mimeType":"",
-            "name":"Transcript",
-            "previews":[
-               
-            ],
-            "url":"https://judiciary.ridgewaycounty.org/RSC-CM-264-962467651538534491.html",
-            "pos":131072,
-            "fileName":"RSC-CM-264-962467651538534491.html"
-         }
-      ],
-      "pluginData":[
-         
-      ],
-      "customFieldItems":[
-         
-      ]
-   },
-   {
-      "id":"6265a8c6c6c09d433f228e29",
-      "address":null,
-      "badges":{
-         "attachmentsByType":{
-            "trello":{
-               "board":0,
-               "card":0
-            }
-         },
-         "location":false,
-         "votes":0,
-         "viewingMemberVoted":false,
-         "subscribed":false,
-         "fogbugz":"",
-         "checkItems":0,
-         "checkItemsChecked":0,
-         "checkItemsEarliestDue":null,
-         "comments":2,
-         "attachments":5,
-         "description":true,
-         "due":null,
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
          "dueComplete":false,
-         "start":null
-      },
-      "checkItemStates":[
-         
-      ],
-      "closed":false,
-      "coordinates":null,
-      "creationMethod":null,
-      "dueComplete":false,
-      "dateLastActivity":"2023-01-28T22:25:42.451Z",
-      "desc":"![District Attorney's Office](https://tr.rbxcdn.com/c41758bc7f8bb595e6914423b20af656/150/150/Image/Png)\n\n##Criminal Complaint\n\n###Information\n* **Defendant:** [PersonalFeelings](https://www.roblox.com/users/722381837/profile)\n* **Submitted on:** May 28th 2022\n* **Prosecutor:** \nstickza\n*State Attorney*\n***Ridgeway Department of Justice***\n\n-----\n\n###Evidence\nUpon discovery.\n###Witnesses\nUpon discovery.",
-      "descData":{
-         "emoji":{
+         "dateLastActivity":"2024-02-28T19:05:19.625Z",
+         "desc":"### Information\n\n- **Defendant’s ROBLOX Username:**\n- **Defendant’s ROBLOX ID:**\n- **Entity:** Judicial Review Board\n- **Type:** Prosecution Order\n- **Reference Number:** PO-X:Y02-24\n- **Handling Officer:**\n\n### Charges\n\nThe board charges the defendant as follows:\n\n1. Criminal Contempt as provided by title II. of the Foundation Code, section 5 § 4(b), clause i.; Class A Misdemeanor\n\n### Reasoning\n\nThe defendant, as established by the ticket records of the Ethics Committee, ticket #1772, and exhibit A, left all relevant Pathos communications during a board proceeding against them, thus causing gross interference to the proceeding.\n\n[Exhibit A](http://gyazo.com \"‌\")\n\n### Order\n\nThe board orders as follows:\n\n- In respect to count 1, the court concludes that by leaving all respective Pathos communications during a board proceeding against them, the defendant indeed caused gross interference with the board’s proceedings, as by doing so, they failed to respond to the petition brought against them as ordered by the court, ultimately resulting in the dismissal of the case as the defendant evaded a response to it.\n- In respect to the punishment, considering the conclusions and findings, the court sentences the defendant in accordance with the Criminal Code as follows:\n  - The offense is classified as a Class A Misdemeanor, allowing for a Class E suspension for no less than 6 and no more than 12 days. The defendant has no previous relevant criminal records, and there are no other considerable circumstances. Under these circumstances, the court issues a 9 day Class E suspension.\n\n##### Vote",
+         "descData":{
+            "emoji":{
+               
+            }
+         },
+         "due":null,
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321hu1xxgvqghbwrfli+2q6pc8u1xy@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
             
-         }
-      },
-      "due":null,
-      "dueReminder":null,
-      "email":null,
-      "idBoard":"628f0be8f059fe2ffb8c43e7",
-      "idChecklists":[
-         
-      ],
-      "idLabels":[
-         "628f0dc94307991ab39913d6"
-      ],
-      "idList":"628f0ee440b34d44e1512a65",
-      "idMembers":[
-         
-      ],
-      "idMembersVoted":[
-         
-      ],
-      "idOrganization":"5fd3c7bafeded04472d1170d",
-      "idShort":139,
-      "idAttachmentCover":null,
-      "labels":[
-         {
-            "id":"628f0dc94307991ab39913d6",
-            "idBoard":"628f0be8f059fe2ffb8c43e7",
-            "name":"Criminal Case",
-            "color":"blue",
-            "uses":139
-         }
-      ],
-      "limits":{
-         "attachments":{
-            "perCard":{
-               "status":"ok",
-               "disableAt":1000,
-               "warnAt":800
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f917d"
+         ],
+         "idList":"65df4eaa24a0b04e721fb33e",
+         "idMembers":[
+            
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":25,
+         "idAttachmentCover":null,
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f917d",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Prosecution Order",
+               "color":"red",
+               "uses":1
+            }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
             }
          },
-         "checklists":{
-            "perCard":{
-               "status":"ok",
-               "disableAt":500,
-               "warnAt":400
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"Judicial Review Board v. defendant",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65df83ee255013c316b6c3b6",
+         "pos":16384,
+         "shortLink":"Ssb437cW",
+         "shortUrl":"https://trello.com/c/Ssb437cW",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":false,
+         "url":"https://trello.com/c/Ssb437cW/25-judicial-review-board-v-defendant",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
+      },
+      {
+         "id":"65df83f6a59ea141799dfde2",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":0
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":false,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":0,
+            "description":true,
+            "due":null,
+            "dueComplete":false,
+            "start":null
+         },
+         "checkItemStates":[
+            
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":false,
+         "dateLastActivity":"2024-02-28T19:05:27.832Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:**\n- **Petitioner’s ROBLOX ID:**\n- **Entity:** Ethics Committee\n- **Type:** Expungement Order\n- **Reference Number:** EX-X:Y02-24\n- **Handling Officer:**\n\n### Cases\n\n1. Case [24-005-10-X111/01](https://docs.google.com/document/d/ \"‌\") from 1st January 2020. The sentence was a formal warning. The case presents the following charges:\n   1. Trespassing as provided by title II. of the Foundation Code, section 3 § 6(a), clause i.; Class C Misdemeanor\n   2. Criminal Interaction with the Pandora Crysta as provided by title II. of the Foundation Code, section 3 § 5(a); Class C Misdemeanor\n\n### Petition\n\n1. The petitioner has committed no other crimes than the case to be expunged, staying clear of any criminal liability for the past x months.\n2. The petitioner has maintained an active commitment to the foundation within the last x months, being an active member of the Scientific Department and a medium command member of the Security Department in this timeframe.\n3. The petitioner had no disciplinary issues in the past x months.\n4. The petitioner presents a commendation from their department supervisor, Security Department Lieutenant user123, reading \"he deserves this guys\".\n5. The petitioner believes the cause of the punishment to be their lack of knowledge and believes that this was corrected, demonstrated by their progress within the foundation and lack of further criminal liability.\n\n### Ruling\n\n‌\n\n##### Vote",
+         "descData":{
+            "emoji":{
+               
             }
          },
-         "stickers":{
-            "perCard":{
-               "status":"ok",
-               "disableAt":70,
-               "warnAt":56
+         "due":null,
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321hu2v0wqorpd956n6+22o8fjsqxg@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f9171"
+         ],
+         "idList":"65df4eaa24a0b04e721fb33e",
+         "idMembers":[
+            
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":26,
+         "idAttachmentCover":null,
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f9171",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Expungement Order",
+               "color":"green",
+               "uses":1
             }
-         }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
+         },
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"petitioner v. Ethics Committee",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65df83f6a59ea141799dfde2",
+         "pos":32768,
+         "shortLink":"wRfTUlYS",
+         "shortUrl":"https://trello.com/c/wRfTUlYS",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":false,
+         "url":"https://trello.com/c/wRfTUlYS/26-petitioner-v-ethics-committee",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
       },
-      "locationName":null,
-      "manualCoverAttachment":false,
-      "name":"State of Ridgeway v. PersonalFeelings",
-      "nodeId":"ari:cloud:trello::card/workspace/5fd3c7bafeded04472d1170d/6265a8c6c6c09d433f228e29",
-      "pos":1274019.84,
-      "shortLink":"c8eKm0ZS",
-      "shortUrl":"https://trello.com/c/c8eKm0ZS",
-      "staticMapUrl":null,
-      "start":null,
-      "subscribed":false,
-      "url":"https://trello.com/c/c8eKm0ZS/139-state-of-ridgeway-v-personalfeelings",
-      "cover":{
-         "idAttachment":null,
-         "color":null,
-         "idUploadedBackground":null,
-         "size":"normal",
-         "brightness":"dark",
-         "idPlugin":null
-      },
-      "isTemplate":false,
-      "cardRole":null,
-      "attachments":[
-         {
-            "id":"6292f5a5ccf322367bae5752",
-            "bytes":660829,
-            "date":"2022-05-29T04:25:09.658Z",
-            "edgeColor":null,
-            "idMember":"56e4a8620a47ebbed7852d4e",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"RSC-CM-396 SUMMONS",
-            "previews":[
-               
-            ],
-            "url":"https://trello.com/1/cards/6265a8c6c6c09d433f228e29/attachments/6292f5a5ccf322367bae5752/download/State_of_Ridgeway_v._PersonalFeelings_Summons.pdf",
-            "pos":65536,
-            "fileName":"State_of_Ridgeway_v._PersonalFeelings_Summons.pdf"
+      {
+         "id":"65df83fa5013644415e829ec",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":0
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":false,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":0,
+            "description":true,
+            "due":null,
+            "dueComplete":false,
+            "start":null
          },
-         {
-            "id":"629e706cac37cd44e872d0d5",
-            "bytes":71599,
-            "date":"2022-06-06T21:23:56.055Z",
-            "edgeColor":null,
-            "idMember":"56e4a8620a47ebbed7852d4e",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"RSC-CM-396 PROSECUTION DISCOVERY",
-            "previews":[
+         "checkItemStates":[
+            
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":false,
+         "dateLastActivity":"2024-02-28T19:05:31.487Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:**\n- **Petitioner’s ROBLOX ID:**\n- **Entity:** Criminal Review Board/Military Police\n- **Type:** Appellate Order\n- **Reference Number:** AR-X:Y02-24\n- **Handling Officer:**\n\n### Case\n\n1. Case [24-005-10-X111/01](https://docs.google.com/document/d/ \"‌\") from 1st January 2020. The sentence was a formal warning. The case presents the following charges:\n   1. Trespassing as provided by title II. of the Foundation Code, section 3 § 6(a), clause i.; Class C Misdemeanor\n   2. Criminal Interaction with the Pandora Crysta as provided by title II. of the Foundation Code, section 3 § 5(a); Class C Misdemeanor\n\n### Case Elements\n\n_The specific issues that were brought up by the defendant or otherwise needing further review. Make sure to specify the background behind each element and do not hesitate to provide the petitioner’s argument._\n\n1. Does the Foundation Code, title II., section 3 § 8(c) define interfering with recontainment by the failure to move away from a hostile anomaly as a crime? Wheras:\n   1. The clause provides that \"Anyone who interferes with the containment of an anomaly is guilty of a class B misdemeanor.\",\n   2. Subsection (a), ii. of the same section provides that \"containment\" means the state of an anomaly where it does not present any risk toward foundation personnel or foundation peace in general and where it is subject to its respective containment procedures,\n2. Does the Criminal Review Board's decision to issue the maximum applicable punishment warrant further review and correction?\n\n### Ruling\n\n‌\n\n##### Vote",
+         "descData":{
+            "emoji":{
                
-            ],
-            "url":"https://trello.com/1/cards/6265a8c6c6c09d433f228e29/attachments/629e706cac37cd44e872d0d5/download/Discovery_Submission_%26_Motion_(1).pdf",
-            "pos":81920,
-            "fileName":"Discovery_Submission_%26_Motion_(1).pdf"
+            }
          },
-         {
-            "id":"629e72f0fce0a430f824caca",
-            "bytes":121889,
-            "date":"2022-06-06T21:34:40.242Z",
-            "edgeColor":null,
-            "idMember":"56e4a8620a47ebbed7852d4e",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"RSC-CM-396 CI",
-            "previews":[
-               
-            ],
-            "url":"https://trello.com/1/cards/6265a8c6c6c09d433f228e29/attachments/629e72f0fce0a430f824caca/download/CI_-_PersonalFeelings.pdf",
-            "pos":98304,
-            "fileName":"CI_-_PersonalFeelings.pdf"
+         "due":null,
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321hu39aocq7f7v4wrw+0qn7fgbrog@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f916c"
+         ],
+         "idList":"65df4eaa24a0b04e721fb33e",
+         "idMembers":[
+            
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":27,
+         "idAttachmentCover":null,
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f916c",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Appellate Order",
+               "color":"orange",
+               "uses":1
+            }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
          },
-         {
-            "id":"62a2bcf7de2b56538a00e138",
-            "bytes":102502,
-            "date":"2022-06-10T03:39:35.462Z",
-            "edgeColor":null,
-            "idMember":"56e4a8620a47ebbed7852d4e",
-            "isUpload":true,
-            "mimeType":"application/pdf",
-            "name":"RSC-CM-396 RULING.pdf",
-            "previews":[
-               
-            ],
-            "url":"https://trello.com/1/cards/6265a8c6c6c09d433f228e29/attachments/62a2bcf7de2b56538a00e138/download/RSC-CM-396_RULING.pdf",
-            "pos":114688,
-            "fileName":"RSC-CM-396_RULING.pdf"
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"petitioner v. Criminal Review Board",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65df83fa5013644415e829ec",
+         "pos":49152,
+         "shortLink":"bmJLjqab",
+         "shortUrl":"https://trello.com/c/bmJLjqab",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":false,
+         "url":"https://trello.com/c/bmJLjqab/27-petitioner-v-criminal-review-board",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
          },
-         {
-            "id":"62a52c6c219fcb277eda15e6",
-            "bytes":null,
-            "date":"2022-06-11T23:59:40.583Z",
-            "edgeColor":null,
-            "idMember":"60624ea28b21ef2a010d634d",
-            "isUpload":false,
-            "mimeType":"",
-            "name":"Transcript",
-            "previews":[
-               
-            ],
-            "url":"https://judiciary.ridgewaycounty.org/RSC-CM-396-980324502888128582.html",
-            "pos":131072,
-            "fileName":"RSC-CM-396-980324502888128582.html"
-         }
-      ],
-      "pluginData":[
-         
-      ],
-      "customFieldItems":[
-         
-      ]
-   }
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
+      }
 ]
   }
