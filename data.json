@@ -1,13 +1,14 @@
 {
     "entries": [
-   {
-         "id":"65df83ee255013c316b6c3b6",
+   
+      {
+         "id":"65e31b5ad3cf725bc5fa1f35",
          "address":null,
          "badges":{
             "attachmentsByType":{
                "trello":{
                   "board":0,
-                  "card":0
+                  "card":2
                }
             },
             "location":false,
@@ -19,10 +20,10 @@
             "checkItemsChecked":0,
             "checkItemsEarliestDue":null,
             "comments":0,
-            "attachments":0,
+            "attachments":2,
             "description":true,
-            "due":null,
-            "dueComplete":false,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
             "start":null
          },
          "checkItemStates":[
@@ -31,25 +32,25 @@
          "closed":false,
          "coordinates":null,
          "creationMethod":null,
-         "dueComplete":false,
-         "dateLastActivity":"2024-02-28T19:05:19.625Z",
-         "desc":"### Information\n\n- **Defendant’s ROBLOX Username:**\n- **Defendant’s ROBLOX ID:**\n- **Entity:** Judicial Review Board\n- **Type:** Prosecution Order\n- **Reference Number:** PO-X:Y02-24\n- **Handling Officer:**\n\n### Charges\n\nThe board charges the defendant as follows:\n\n1. Criminal Contempt as provided by title II. of the Foundation Code, section 5 § 4(b), clause i.; Class A Misdemeanor\n\n### Reasoning\n\nThe defendant, as established by the ticket records of the Ethics Committee, ticket #1772, and exhibit A, left all relevant Pathos communications during a board proceeding against them, thus causing gross interference to the proceeding.\n\n[Exhibit A](http://gyazo.com \"‌\")\n\n### Order\n\nThe board orders as follows:\n\n- In respect to count 1, the court concludes that by leaving all respective Pathos communications during a board proceeding against them, the defendant indeed caused gross interference with the board’s proceedings, as by doing so, they failed to respond to the petition brought against them as ordered by the court, ultimately resulting in the dismissal of the case as the defendant evaded a response to it.\n- In respect to the punishment, considering the conclusions and findings, the court sentences the defendant in accordance with the Criminal Code as follows:\n  - The offense is classified as a Class A Misdemeanor, allowing for a Class E suspension for no less than 6 and no more than 12 days. The defendant has no previous relevant criminal records, and there are no other considerable circumstances. Under these circumstances, the court issues a 9 day Class E suspension.\n\n##### Vote",
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-04T02:24:34.787Z",
+         "desc":"### Information\n\n- **Type:** Declaratory Decision\n- **Reference Number:** DE-22:603-24\n- **Handling Officer:** Vasek_Stolba\n\n### Decision (passed)\n\n1. Article 2 of the Board Procedure shall be amended as follows:\n   1. Rule 1 shall read “Every order or decision of the board shall go through a ratification process outlined under the Special Procedure. Such a ratification process shall be done in frequent board meetings.”\n   2. Rule 2 shall read “The respective case or petition handler shall file the case on the respective Trello board and once done, move it to the “Pending” column. Before the meeting, the cases to undergo the ratification process are to be prepared and moved to the “Docket” column by the Board Chairman.”\n   3. Rule 3 shall read “Members of the board are required to attend all board meetings, whether they be present in the meeting itself or by voting on every case in up to 24 hours after the meeting is concluded. Members of the board may be excluded from participation in a ratification process if:”. The subrules shall stay.\n2. Article 3 of the Board Procedure shall be amended as follows:\n   1. Any clause that authorizes the issue of a decision to a Magistrate “with the support of..” a certain voting standard of the board shall be reworded so the decision can be made only by that certain voting standard of the board. For example, “can be issued by a Magistrate with the support of a full majority” shall be replaced with “can be issued by a full majority”.\n   2. Appellate orders do not have to be inputted into the original case in its entirety, only in a manner that sufficiently establishes the corrected parts of the action. Subarticle (a) shall be amended as follows:\n      1. Subrule 9(a) shall read “An informative alert reading “THIS CASE IS SUBJECT TO AN APPELLATE ORDER” designed as a hyperlink to the appellate order shall be inserted into the original report of the Criminal Review Board (“CRB”) or the Military Police (“MP”) on the title page with the use of the “white” text color and \"dark red 2\" highlight color.”\n      2. Subrule 9(b) shall read “A note per every charge that was added or struck down shall be inserted in the “CHARGES” section of the CRB or MP report by the use of the “light orange 1” highlight color.”\n      3. Subrule 9(c) shall read “The appellate order itself shall include the full decision, including the exact points that were ordered and the reasoning for all parts of the order. The reasoning shall also include answers to any relevant legal issues. The exact points that were ordered shall be inserted into the “Conclusion” section of the report by the use of the “light orange 1” highlight color.”\n      4. Subrule 17(a) shall read “The exact points that were ordered shall be inserted into the original post of the Ethics Committee Trial Court within the [#civil-cases](https://discord.com/channels/827330371912859688/1164608723315073084 \"‌\") channel, with the smallest heading (by the use of one hashtag) stating “Judicial Review Board Civil Appellate Order””\n   3. For formal purposes, Ethical Directives shall, in addition to the respective Trello card, also continue to be filed through Google Documents. Subarticle (b) remains unchanged.\n   4. Expungement orders no longer have to be filed through Google Documents. Subarticle (c) shall be amended as follows:\n      1. Subrule 6(a) shall read “An informative alert reading “THIS CASE IS SUBJECT TO AN EXPUNGEMENT ORDER” designed as a hyperlink to the expungement order shall be inserted into the original report of the Criminal Review Board (“CRB”) or the Military Police (“MP”) on the title page with the use of the “white” text color and \"dark red 2\" highlight color.”, replacing the subrule regarding using Google Documents.\n   5. For formal purposes, Prosecution Orders shall, in addition to the respective Trello card, also continue to be filed through Google Documents. Subarticle (d) remains unchanged.\n\n‌\n\n**Vote**\n\n1. This decision has been decided on by the Judicial Review Board  in accordance with rule 2 under subarticle 3(g) and rule 3 under subarticle 3(e) of the Board Procedure as follows:\n   1. Approved by the Board Chairman, not contested.",
          "descData":{
             "emoji":{
                
             }
          },
-         "due":null,
-         "dueReminder":null,
-         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321hu1xxgvqghbwrfli+2q6pc8u1xy@boards.trello.com",
+         "due":"2024-03-02T06:00:00.000Z",
+         "dueReminder":-1,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+3221h36zchsm0e477sl+2l5uhniocr@boards.trello.com",
          "idBoard":"65df4534f81dc4b04036b161",
          "idChecklists":[
             
          ],
          "idLabels":[
-            "65df4534d0bdb9e2727f917d"
+            "65e31b7493a644c3d162bf46"
          ],
-         "idList":"65df4eaa24a0b04e721fb33e",
+         "idList":"65df4ee296f11d2d698ac409",
          "idMembers":[
             
          ],
@@ -57,15 +58,15 @@
             
          ],
          "idOrganization":"6085b2270facff054bb4da14",
-         "idShort":25,
+         "idShort":49,
          "idAttachmentCover":null,
          "labels":[
             {
-               "id":"65df4534d0bdb9e2727f917d",
+               "id":"65e31b7493a644c3d162bf46",
                "idBoard":"65df4534f81dc4b04036b161",
-               "name":"Prosecution Order",
-               "color":"red",
-               "uses":1
+               "name":"Declaratory Decision",
+               "color":"purple",
+               "uses":3
             }
          ],
          "limits":{
@@ -93,15 +94,15 @@
          },
          "locationName":null,
          "manualCoverAttachment":false,
-         "name":"Judicial Review Board v. defendant",
-         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65df83ee255013c316b6c3b6",
-         "pos":16384,
-         "shortLink":"Ssb437cW",
-         "shortUrl":"https://trello.com/c/Ssb437cW",
+         "name":"Declaratory decision to revise the board's ratification process",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65e31b5ad3cf725bc5fa1f35",
+         "pos":8192,
+         "shortLink":"mx1GUrPe",
+         "shortUrl":"https://trello.com/c/mx1GUrPe",
          "staticMapUrl":null,
          "start":null,
          "subscribed":false,
-         "url":"https://trello.com/c/Ssb437cW/25-judicial-review-board-v-defendant",
+         "url":"https://trello.com/c/mx1GUrPe/49-declaratory-decision-to-revise-the-boards-ratification-process",
          "cover":{
             "idAttachment":null,
             "color":null,
@@ -113,7 +114,38 @@
          "isTemplate":false,
          "cardRole":null,
          "attachments":[
-            
+            {
+               "id":"65e372498b7d186525735a94",
+               "bytes":null,
+               "date":"2024-03-02T18:39:05.296Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l/34-board-meeting",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l/34-board-meeting",
+               "pos":16384,
+               "fileName":"34-board-meeting"
+            },
+            {
+               "id":"65e377f4f8408f6db22d8f32",
+               "bytes":null,
+               "date":"2024-03-02T19:03:16.805Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
          ],
          "pluginData":[
             
@@ -123,13 +155,13 @@
          ]
       },
       {
-         "id":"65df83f6a59ea141799dfde2",
+         "id":"65e35a7e08566cfe25b73d65",
          "address":null,
          "badges":{
             "attachmentsByType":{
                "trello":{
                   "board":0,
-                  "card":0
+                  "card":2
                }
             },
             "location":false,
@@ -141,10 +173,10 @@
             "checkItemsChecked":0,
             "checkItemsEarliestDue":null,
             "comments":0,
-            "attachments":0,
+            "attachments":2,
             "description":true,
-            "due":null,
-            "dueComplete":false,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
             "start":null
          },
          "checkItemStates":[
@@ -153,25 +185,25 @@
          "closed":false,
          "coordinates":null,
          "creationMethod":null,
-         "dueComplete":false,
-         "dateLastActivity":"2024-02-28T19:05:27.832Z",
-         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:**\n- **Petitioner’s ROBLOX ID:**\n- **Entity:** Ethics Committee\n- **Type:** Expungement Order\n- **Reference Number:** EX-X:Y02-24\n- **Handling Officer:**\n\n### Cases\n\n1. Case [24-005-10-X111/01](https://docs.google.com/document/d/ \"‌\") from 1st January 2020. The sentence was a formal warning. The case presents the following charges:\n   1. Trespassing as provided by title II. of the Foundation Code, section 3 § 6(a), clause i.; Class C Misdemeanor\n   2. Criminal Interaction with the Pandora Crysta as provided by title II. of the Foundation Code, section 3 § 5(a); Class C Misdemeanor\n\n### Petition\n\n1. The petitioner has committed no other crimes than the case to be expunged, staying clear of any criminal liability for the past x months.\n2. The petitioner has maintained an active commitment to the foundation within the last x months, being an active member of the Scientific Department and a medium command member of the Security Department in this timeframe.\n3. The petitioner had no disciplinary issues in the past x months.\n4. The petitioner presents a commendation from their department supervisor, Security Department Lieutenant user123, reading \"he deserves this guys\".\n5. The petitioner believes the cause of the punishment to be their lack of knowledge and believes that this was corrected, demonstrated by their progress within the foundation and lack of further criminal liability.\n\n### Ruling\n\n‌\n\n##### Vote",
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-04T02:24:35.762Z",
+         "desc":"### Information\n\n- **Type:** Declaratory Decision\n- **Reference Number:** DE-23:603-24\n- **Handling Officer:** Vasek_Stolba\n\n### Decision (passed)\n\nThe Judicial Review Board hereby declares the following:\n\n1. Law Enforcement Procedure\n   1. All offenses included within the Criminal Code shall be subject to handling and punishment by the Ethics Committee. An action by the Ethics Committee does not prelude a further punishment within the offender's departments.\n   2. All departments of a person punished by the Ethics Committee are required to comply with such a punishment. For example, in the case of a Class E suspension, all command teams of which the offender is a member shall use reasonable efforts to prevent the offender from using that department's team or other privileges on site.\n   3. In the case of conduct in violation of the Code of Ethics without inclusion within the Criminal Code, the Criminal Review Board shall abstain from the case and forward it to the command of the department that the offender is a member of and that is relevant to the nature of the offense. The compliance of departments with the Code of Ethics is subject to review by the Judicial Review Board.\n   4. The Internal Security Service may act pursuant to the Internal Security Policy without regard to the Criminal Code or the Code of Ethics. The Internal Security Policy is subject to review by the O5 Council.\n2. Punishment Procedure - The purpose of this declaration is to is to regulate the execution of punishments that may be issued by the Ethics Committee.\n   1. When a Formal Warning is issued, a notice shall be sent to the subject explaining the illegality of their conduct.\n   2. When a Class E Sentence is issued:\n      1. a notice shall be sent to the subject explaining the illegality of their conduct and their punishment;\n      2. the subject shall be ranked to \"Suspended Personnel\" in the primary foundation group; and\n      3. the subject's access to all departments teams shall be restricted. Department command teams shall make a reasonable effort to do so after being instructed to by the Ethics Committee.\n   3. When a Foundation Dismissal is issued:\n      1. a notice shall be sent to the subject explaining the illegality of their conduct and their punishment;\n      2. the subject shall be ranked to \"Class D\" in the primary foundation group;\n      3. the subject shall be removed from all departments. Department command teams shall do so after being instructed to by the Ethics Committee; and\n      4. the subject shall be blocked from sending Security Class applications for two months.\n   4. When a Foundation Exile is issued:\n      1. a notice shall be sent to the subject explaining the illegality of their conduct and their punishment;\n      2. the subject shall be ranked to \"Class D\" in the primary foundation group;\n      3. the subject shall be removed from all departments. Department command teams shall do so after being instructed to by the Ethics Committee; and\n      4. the subject shall be blocked from sending Security Class applications for an indefinite amount of time.\n   5. When a Foundation Blacklist is issued:\n      1. a notice shall be sent to the subject explaining the illegality of their conduct and their punishment;\n      2. the subject shall be ranked to \"Class D\" or exiled from the primary foundation group;\n      3. the subject shall be removed from all departments. Department command teams shall do so after being instructed to by the Ethics Committee;\n      4. the subject shall be blocked from sending Security Class applications for an indefinite amount of time;\n      5. the subject shall be removed from all communication servers owned by Pathos; and\n      6. the subject shall be removed from all games and experiences owned by Pathos.\n3. Retroactivity of the law - In the case of law modifications that are done during or momentarily after the processing of an offense, the most lenient version of the law in regards to sentencing shall be used.\n\n**Vote**\n\n1. This decision has been decided on by the Judicial Review Board in accordance with rules 2(d) and 3 under subarticle 3(e) of the Board Procedure as follows:\n   1. Approved by the Board Chairman, not contested.",
          "descData":{
             "emoji":{
                
             }
          },
-         "due":null,
-         "dueReminder":null,
-         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321hu2v0wqorpd956n6+22o8fjsqxg@boards.trello.com",
+         "due":"2024-03-02T06:00:00.000Z",
+         "dueReminder":-1,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+3222tn33x6hyiahhkyt+1v0z1gp00n@boards.trello.com",
          "idBoard":"65df4534f81dc4b04036b161",
          "idChecklists":[
             
          ],
          "idLabels":[
-            "65df4534d0bdb9e2727f9171"
+            "65e31b7493a644c3d162bf46"
          ],
-         "idList":"65df4eaa24a0b04e721fb33e",
+         "idList":"65df4ee296f11d2d698ac409",
          "idMembers":[
             
          ],
@@ -179,15 +211,15 @@
             
          ],
          "idOrganization":"6085b2270facff054bb4da14",
-         "idShort":26,
+         "idShort":51,
          "idAttachmentCover":null,
          "labels":[
             {
-               "id":"65df4534d0bdb9e2727f9171",
+               "id":"65e31b7493a644c3d162bf46",
                "idBoard":"65df4534f81dc4b04036b161",
-               "name":"Expungement Order",
-               "color":"green",
-               "uses":1
+               "name":"Declaratory Decision",
+               "color":"purple",
+               "uses":3
             }
          ],
          "limits":{
@@ -215,15 +247,15 @@
          },
          "locationName":null,
          "manualCoverAttachment":false,
-         "name":"petitioner v. Ethics Committee",
-         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65df83f6a59ea141799dfde2",
-         "pos":32768,
-         "shortLink":"wRfTUlYS",
-         "shortUrl":"https://trello.com/c/wRfTUlYS",
+         "name":"Declaratory decision to rectify previous declarations",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65e35a7e08566cfe25b73d65",
+         "pos":12288,
+         "shortLink":"dnlWkqUk",
+         "shortUrl":"https://trello.com/c/dnlWkqUk",
          "staticMapUrl":null,
          "start":null,
          "subscribed":false,
-         "url":"https://trello.com/c/wRfTUlYS/26-petitioner-v-ethics-committee",
+         "url":"https://trello.com/c/dnlWkqUk/51-declaratory-decision-to-rectify-previous-declarations",
          "cover":{
             "idAttachment":null,
             "color":null,
@@ -235,7 +267,38 @@
          "isTemplate":false,
          "cardRole":null,
          "attachments":[
-            
+            {
+               "id":"65e3725c4a97a0965b4a2916",
+               "bytes":null,
+               "date":"2024-03-02T18:39:24.013Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l/34-board-meeting",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l/34-board-meeting",
+               "pos":16384,
+               "fileName":"34-board-meeting"
+            },
+            {
+               "id":"65e377f5196517e8215612c8",
+               "bytes":null,
+               "date":"2024-03-02T19:03:17.422Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
          ],
          "pluginData":[
             
@@ -245,28 +308,28 @@
          ]
       },
       {
-         "id":"65df83fa5013644415e829ec",
+         "id":"65dfd3a0773cd7bc54de6189",
          "address":null,
          "badges":{
             "attachmentsByType":{
                "trello":{
                   "board":0,
-                  "card":0
+                  "card":2
                }
             },
             "location":false,
             "votes":0,
             "viewingMemberVoted":false,
-            "subscribed":false,
+            "subscribed":true,
             "fogbugz":"",
             "checkItems":0,
             "checkItemsChecked":0,
             "checkItemsEarliestDue":null,
             "comments":0,
-            "attachments":0,
+            "attachments":2,
             "description":true,
-            "due":null,
-            "dueComplete":false,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
             "start":null
          },
          "checkItemStates":[
@@ -275,17 +338,17 @@
          "closed":false,
          "coordinates":null,
          "creationMethod":null,
-         "dueComplete":false,
-         "dateLastActivity":"2024-02-28T19:05:31.487Z",
-         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:**\n- **Petitioner’s ROBLOX ID:**\n- **Entity:** Criminal Review Board/Military Police\n- **Type:** Appellate Order\n- **Reference Number:** AR-X:Y02-24\n- **Handling Officer:**\n\n### Case\n\n1. Case [24-005-10-X111/01](https://docs.google.com/document/d/ \"‌\") from 1st January 2020. The sentence was a formal warning. The case presents the following charges:\n   1. Trespassing as provided by title II. of the Foundation Code, section 3 § 6(a), clause i.; Class C Misdemeanor\n   2. Criminal Interaction with the Pandora Crysta as provided by title II. of the Foundation Code, section 3 § 5(a); Class C Misdemeanor\n\n### Case Elements\n\n_The specific issues that were brought up by the defendant or otherwise needing further review. Make sure to specify the background behind each element and do not hesitate to provide the petitioner’s argument._\n\n1. Does the Foundation Code, title II., section 3 § 8(c) define interfering with recontainment by the failure to move away from a hostile anomaly as a crime? Wheras:\n   1. The clause provides that \"Anyone who interferes with the containment of an anomaly is guilty of a class B misdemeanor.\",\n   2. Subsection (a), ii. of the same section provides that \"containment\" means the state of an anomaly where it does not present any risk toward foundation personnel or foundation peace in general and where it is subject to its respective containment procedures,\n2. Does the Criminal Review Board's decision to issue the maximum applicable punishment warrant further review and correction?\n\n### Ruling\n\n‌\n\n##### Vote",
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-04T02:24:36.676Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:** APerson3045\n- **Petitioner’s ROBLOX ID:** 1418482999\n- **Entity:** Military Police\n- **Type:** Appellate Order\n- **Reference Number:** AR-9:502-24\n- **Handling Officer:** Winter_Selection, Judicial Assistant on behalf of Magistrate SoroLover123\n\n### Case\n\n1. Case [T-23-0009](https://docs.google.com/document/d/1ayP5KkdW9XLUcyNzUYsrH0-G4vEDi-lDrHu0HBlCDaQ/edit \"‌\") from 4th February 2024. The sentence was a traffic warning. The case presents the following charges:\n   1. Careless Driving, as provided by title II. of the Foundation Code, Section 3 § 1(b); Class B traffic infraction\n\n### Case Elements\n\n1. Does the Foundation Code, title II., subsections 3 § 1(a) and (b), define driving in the prescribed manner as criminal even if there are no other vehicles or pedestrians nearby that could be affected by such conduct?\n2. Is driving backwards careless driving, as provided by title II. of the Foundation Code, section 3 § 1(b)?\n   1. If not, could the petitioner instead be charged with Reckless Driving, as provided by title II of the Foundation Code, section 3 § 1(a)?\n      1. Does driving backwards show willful disregard for the safety of others?\n\n### Ruling\n\n**Conclusions of Law**\n\n1. Yes. Allowing traffic misconduct even when it technically affects no one would be out of place compared to other parts of the Criminal Code and would make it unreasonably harder for traffic authorities to properly maintain the safe and efficient flow of traffic. **(PASSED)**\n2. No. As long as the driver is driving the correct way, pursuant to all traffic regulations provided by the traffic code, the driver is not guilty of careless driving. However, driving backwards constitutes reckless driving as provided by title II. of the Foundation Code, section 3 § 1(a), as driving backwards is needlessly dangerous, and shows a willful disregard of others safety. **(PASSED)**\n\n**Order**\n\nIn light of the conclusions of law, the board finds the defendant not guilty of careless driving as provided by the Foundation Code, title II., subsection 3 § 1(b). The board finds the defendant guilty of reckless driving as provided by the Foundation Code, title II., subsection 3 § 1(a) instead. The board sends the case back to the Military Police to issue a new punishment in accordance with the changes in charges. **(PASSED)**\n\n**Vote**\n\n1. The Judicial Review Board decided on the first conclusion of law in accordance with rule 7 of subarticle 3(a) of the Board Procedure as follows (full supermajority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Aye\n   3. ViscountSamuel - Aye\n   4. Winter_Selection - Aye\n2. The Judicial Review Board decided on the second conclusion of law in accordance with rule 7 of subarticle 3(a) of the Board Procedure as follows (full supermajority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Aye\n   3. ViscountSamuel - Aye\n   4. Winter_Selection - Aye\n3. The Judicial Review Board decided on the order in accordance with rule 7 of subarticle 3(a) of the Board Procedure as follows (full supermajority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Aye\n   3. ViscountSamuel - Aye\n   4. Winter_Selection - Aye",
          "descData":{
             "emoji":{
                
             }
          },
-         "due":null,
+         "due":"2024-03-02T06:00:00.000Z",
          "dueReminder":null,
-         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321hu39aocq7f7v4wrw+0qn7fgbrog@boards.trello.com",
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321jjc94rthml0k477t+1kjze43vp2@boards.trello.com",
          "idBoard":"65df4534f81dc4b04036b161",
          "idChecklists":[
             
@@ -293,15 +356,170 @@
          "idLabels":[
             "65df4534d0bdb9e2727f916c"
          ],
-         "idList":"65df4eaa24a0b04e721fb33e",
+         "idList":"65df4ee296f11d2d698ac409",
          "idMembers":[
-            
+            "5e8130964a6adc839ca08590",
+            "6043ee819dda4f6429f89414"
          ],
          "idMembersVoted":[
             
          ],
          "idOrganization":"6085b2270facff054bb4da14",
-         "idShort":27,
+         "idShort":35,
+         "idAttachmentCover":"",
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f916c",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Appellate Order",
+               "color":"orange",
+               "uses":17
+            }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
+         },
+         "locationName":null,
+         "manualCoverAttachment":true,
+         "name":"APerson3045 v. Military Police",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65dfd3a0773cd7bc54de6189",
+         "pos":16384,
+         "shortLink":"7BO2dUPY",
+         "shortUrl":"https://trello.com/c/7BO2dUPY",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":true,
+         "url":"https://trello.com/c/7BO2dUPY/35-aperson3045-v-military-police",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            {
+               "id":"65e2c0964075fcbaccc4b75d",
+               "bytes":null,
+               "date":"2024-03-02T06:00:54.615Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":16384,
+               "fileName":"IuojVq3l"
+            },
+            {
+               "id":"65e377f5f398859c18362c7b",
+               "bytes":null,
+               "date":"2024-03-02T19:03:17.943Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
+      },
+      {
+         "id":"65e0ebcd39ac1b6ebab687f2",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":2
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":true,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":2,
+            "description":true,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
+            "start":null
+         },
+         "checkItemStates":[
+            
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-04T02:24:39.467Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:** GEWPTHEKILLERSM\n- **Petitioner’s ROBLOX ID:** 160230294\n- **Entity:** Military Police\n- **Type:** Appellate Order\n- **Reference Number:** AR-12:502-24\n- **Handling Officer:** Winter_Selection, on behalf of SoroLover123\n\n### Case\n\n1. Case [T-24-0015](https://docs.google.com/document/d/1W5LUXEN9oE-HqR5FtPGhklZD4d0MR6vVKIQBodPNvQI/edit \"‌\") from 27th February 2024. The sentence was a license suspension of 3 days. The case presents the following charges:\n   1. Reckless Driving, as provided by title II. of the Foundation Code, section 3 § 1(a); Class A Traffic Infraction\n   2. Causing a Vehicle Accident as provided by title II. of the Foundation Code, section 3 § 1(e); Class B Traffic Infraction.\n\n### Case Elements\n\n1. Was the defendant in control of the vehicle, and if not, can they still be held criminally liable?\n   1. The petitioner claims a foreign entity, likely a cloaked MaD, took control of their vehicle.\n      1. This is supported by a [video clip](https://youtu.be/u66_qMLQdqI \"‌\") showing the doors around them opening and closing with no entity visible opening them,\n      2. This is supported by a [video clip](https://youtu.be/u66_qMLQdqI \"‌\") showing the vehicle moving around with no visible driver in the Site Omicron parking lot.\n      3. This is supported by a [video clip](https://youtu.be/u66_qMLQdqI \"‌\") showing the car jerking to the right, faster than a Humvee should be able to drive.\n\n### Ruling\n\n**Finding of Fact (passed)**\n\n1. No, no.\n\n**Order (passed)**\n\nIn light of the new finding of fact, the board finds the defendant not guilty of Reckless Driving, as provided by title II. of the Foundation Code, section 3 § 1(a) and Causing a Vehicle Accident as provided by title II. of the Foundation Code, section 3 § 1(e).\n\n**Vote**\n\n1. The Judicial Review Board decided on the finding of fact and on the order in accordance with rule 5 of subarticle 3(a) of the Board Procedure as follows (magistrate’s decision):\n   1. Approved by Magistrate SoroLover123, not contested.",
+         "descData":{
+            "emoji":{
+               
+            }
+         },
+         "due":"2024-03-02T06:00:00.000Z",
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321pisl19heryegsyya+2hlbdtgxil@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f916c"
+         ],
+         "idList":"65df4ee296f11d2d698ac409",
+         "idMembers":[
+            "5e8130964a6adc839ca08590",
+            "6043ee819dda4f6429f89414"
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":38,
          "idAttachmentCover":null,
          "labels":[
             {
@@ -309,7 +527,7 @@
                "idBoard":"65df4534f81dc4b04036b161",
                "name":"Appellate Order",
                "color":"orange",
-               "uses":1
+               "uses":17
             }
          ],
          "limits":{
@@ -337,15 +555,15 @@
          },
          "locationName":null,
          "manualCoverAttachment":false,
-         "name":"petitioner v. Criminal Review Board",
-         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65df83fa5013644415e829ec",
-         "pos":49152,
-         "shortLink":"bmJLjqab",
-         "shortUrl":"https://trello.com/c/bmJLjqab",
+         "name":"GEWPTHEKILLERSM v. Military Police",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65e0ebcd39ac1b6ebab687f2",
+         "pos":57344,
+         "shortLink":"Zy2ynRBn",
+         "shortUrl":"https://trello.com/c/Zy2ynRBn",
          "staticMapUrl":null,
          "start":null,
-         "subscribed":false,
-         "url":"https://trello.com/c/bmJLjqab/27-petitioner-v-criminal-review-board",
+         "subscribed":true,
+         "url":"https://trello.com/c/Zy2ynRBn/38-gewpthekillersm-v-military-police",
          "cover":{
             "idAttachment":null,
             "color":null,
@@ -357,7 +575,1482 @@
          "isTemplate":false,
          "cardRole":null,
          "attachments":[
+            {
+               "id":"65e2c0a6724de6ac5809547f",
+               "bytes":null,
+               "date":"2024-03-02T06:01:10.961Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":16384,
+               "fileName":"IuojVq3l"
+            },
+            {
+               "id":"65e377f6ccf9e1c86bffdc76",
+               "bytes":null,
+               "date":"2024-03-02T19:03:18.472Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
+         ],
+         "pluginData":[
             
+         ],
+         "customFieldItems":[
+            
+         ]
+      },
+      {
+         "id":"65e0ef59792303f034c8a9b0",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":2
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":true,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":2,
+            "description":true,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
+            "start":null
+         },
+         "checkItemStates":[
+            
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-04T02:24:40.418Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:** FounderCalamity\n- **Petitioner’s ROBLOX ID:** 299255009\n- **Entity:** Criminal Review Board\n- **Type:** Appellate Order\n- **Reference Number:** AR-13:502-24\n- **Handling Officer:** Winter_Selection, Judicial Assistant on behalf of Magistrate SoroLover123\n\n### Case\n\n1. Case [24-005-10-F299](https://docs.google.com/document/d/1jBoBDoSXLhmeTYnjRUOUG58Jt7lJb06q67xANSUdkfE/edit?usp=sharing \"‌\") from 14th February 2024. The sentence was a formal warning. The case presents the following charges:\n   1. Driving without a license as provided by title II. of the Foundation Code, section 3 § 3(a); Class C Misdemeanor\n\n### Case Elements\n\n1. Is there a reasonable doubt that the defendant could have been on the Class-D team, disguised, when the criminal activity occured?\n   1. The petitioner has the Class-D leader gamepass, which allows you to be on the Foundation Personnel team, and the Class-D team.\n   2. Security Class 0 personnel cannot use pink shirts, and the petitioner is seen wearing a pink shirt with the “Security Class 0” rank in the evidence provided.\n   3. Security Class 0 personnel cannot spawn in vehicles on their own.\n      1. Class-D personnel cannot either.\n\n### Ruling\n\n**Finding of Fact (passed)**\n\n1. Yes.\n\n**Order (passed)**\n\nIn light of the new finding of fact, the board finds the defendant not guilty of Driving without a license as provided by title II. of the Foundation Code, section 3 § 3(a).\n\n**Vote**\n\n1. The Judicial Review Board decided on the finding of fact and on the order in accordance with rule 5 of subarticle 3(a) of the Board Procedure as follows (magistrate’s decision):\n   1. Approved by Magistrate SoroLover123, not contested.",
+         "descData":{
+            "emoji":{
+               
+            }
+         },
+         "due":"2024-03-02T06:00:00.000Z",
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321plisvy3xi89kpqcw+0n3piu5mxw@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f916c"
+         ],
+         "idList":"65df4ee296f11d2d698ac409",
+         "idMembers":[
+            "5e8130964a6adc839ca08590",
+            "6043ee819dda4f6429f89414"
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":40,
+         "idAttachmentCover":null,
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f916c",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Appellate Order",
+               "color":"orange",
+               "uses":17
+            }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
+         },
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"FounderCalamity v. Criminal Review Board",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65e0ef59792303f034c8a9b0",
+         "pos":65536,
+         "shortLink":"giSn95dw",
+         "shortUrl":"https://trello.com/c/giSn95dw",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":true,
+         "url":"https://trello.com/c/giSn95dw/40-foundercalamity-v-criminal-review-board",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            {
+               "id":"65e2c0a42377bb5633a03be3",
+               "bytes":null,
+               "date":"2024-03-02T06:01:08.235Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":16384,
+               "fileName":"IuojVq3l"
+            },
+            {
+               "id":"65e377f756267dfc5b0b03a6",
+               "bytes":null,
+               "date":"2024-03-02T19:03:19.047Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
+      },
+      {
+         "id":"65e0ff4ae1a3eb7e74160428",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":2
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":true,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":2,
+            "description":true,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
+            "start":null
+         },
+         "checkItemStates":[
+            
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-08T14:25:55.734Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:** DevPlayzOK\n- **Petitioner’s ROBLOX ID:** 793834554\n- **Entity:** Criminal Review Board\n- **Type:** Appellate Order\n- **Reference Number:** AR-14:502-24\n- **Handling Officer:** Winter_Selection, on behalf of SoroLover123\n\n### Case\n\n1. Case [24-005-10-D793](https://docs.google.com/document/d/19K8CHdgItFINrVF79M8LVVggpGonVdB9Tx2nV4W7CRE/edit?usp=sharing \"‌\") from 9th February 2024. The sentence was a 3 day Class E sentence. The case presents the following charges:\n   1. Failing to comply with an installation protocol as provided by title II. of the Foundation Code, section 3 § 2(a); Class C Misdemeanor\n   2. Unlawful discharge of a firearm as provided by title II. of the Foundation Code, section 3 § 7(b); Class B Misdemeanor\n\n### Case Elements\n\n1. Does title II. of the Foundation Code, section 2 § 5(d), rule out the defendant’s criminal liability for their decision to leave Site Phi and attempt to return to Site Epsilon when they were ordered to do so by their test escorts, a Security Department Agent and a Crimson-9 task force Agent?\n2. Is there a reasonable doubt that the petitioner assumed the Military Police member was a Class-D?\n   1. It was Protocol Uproar during the commission of the crime.\n3. If the answer to point 2 is yes, was it reasonable of the defendant to act upon that assumption and shoot at the Military Police member?\n4. If the answers to points 2 and 3 is yes, does that absolve the defendant of criminal liability for firing at the Military Police officer in accordance with title II. of the Foundation Code, section 2 § 5(e)?\n\n### Ruling\n\n**Conclusions of Law**\n\n1. In regards to point 1, the answer is yes. The Crimon-9 task force Agent, especially considering his role as the defendant's test escort and as a seasoned combative, is a person of authority as provided by the referenced criminal liability exception clause. **(PASSED)**\n2. The answer to points 2 and 3 is not yes.\n\n**Findings of Fact**\n\n1. The answer to point 2 is yes. - **(PASSED)**\n2. No. Firearm holders must be held to a higher standard, especially during such emergency situations. The defendant's use of the firearm in this situation was reckless. It is everyone's responsibility to take reasonable efforts to check what or who they're shooting at. The defendant did not take any such reasonable efforts. - **(PASSED)**\n\n**Order**\n\nIn light of the conclusions of law, the board finds the defendant not guilty of failing to comply with an installation protocol as provided by title II. of the Foundation Code, section 3 § 2(a). The board upholds the Criminal Review Board's decision to find the defendant guilty of unlawful discharge of a firearm as provided by title II. of the Foundation Code, section 3 § 7(b). The board sends the case back to the Criminal Review Board to issue a new punishment in accordance with the changes in charges. The board also asks the Criminal Review Board to consider the fact that the offense was committed recklessly, not knowingly or purposefully in their sentencing. **(PASSED)**\n\n**Vote**\n\n1. The Judicial Review Board decided on the first conclusion of law in accordance with rule 6 of subarticle 3(a) of the Board Procedure as follows (full majority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Aye\n   3. ViscountSamuel - Aye\n   4. JaroCycle - Absent\n   5. Winter_Selection - Aye\n2. The Judicial Review Board decided on the first finding of fact in accordance with rule 5 of subarticle 3(a) of the Board Procedure as follows (magistrate’s decision):\n   1. Approved by Magistrate SoroLover123, not contested3\n3. The Judicial Review Board decided on the second finding of fact in accordance with rule 5 of subarticle 3(a) of the Board Procedure as follows (magistrate’s decision):\n   1. Approved by Magistrate SoroLover123, not contested\n4. The Judicial Review Board decided on the order in accordance with rule 6 of subarticle 3(a) of the Board Procedure as follows (full majority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Aye\n   3. ViscountSamuel - Aye\n   4. JaroCycle - Absent\n   5. Winter_Selection - Aye",
+         "descData":{
+            "emoji":{
+               
+            }
+         },
+         "due":"2024-03-02T06:00:00.000Z",
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321pxs6050prd5cm23s+2bq3n1hwyn@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f916c"
+         ],
+         "idList":"65df4ee296f11d2d698ac409",
+         "idMembers":[
+            "5e8130964a6adc839ca08590",
+            "6043ee819dda4f6429f89414"
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":41,
+         "idAttachmentCover":null,
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f916c",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Appellate Order",
+               "color":"orange",
+               "uses":17
+            }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
+         },
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"DevPlayzOK v. Criminal Review Board",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65e0ff4ae1a3eb7e74160428",
+         "pos":98304,
+         "shortLink":"of5HAtsq",
+         "shortUrl":"https://trello.com/c/of5HAtsq",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":true,
+         "url":"https://trello.com/c/of5HAtsq/41-devplayzok-v-criminal-review-board",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            {
+               "id":"65e2c0a996ba2c4c044ecbc8",
+               "bytes":null,
+               "date":"2024-03-02T06:01:13.641Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":16384,
+               "fileName":"IuojVq3l"
+            },
+            {
+               "id":"65e377f7eaf2c75827da7e25",
+               "bytes":null,
+               "date":"2024-03-02T19:03:19.570Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
+      },
+      {
+         "id":"65e101a992fa7716c89c5c49",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":2
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":true,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":2,
+            "description":true,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
+            "start":null
+         },
+         "checkItemStates":[
+            
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-04T02:24:42.806Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:** d2holder\n- **Petitioner’s ROBLOX ID:** 3904995327\n- **Entity:** Criminal Review Board\n- **Type:** Appellate Order\n- **Reference Number:** AR-15:502-24\n- **Handling Officer:** Winter_Selection, on behalf of SoroLover123\n\n### Case\n\n1. Case [24-005-10-D390](https://docs.google.com/document/d/1yWWE27B9NKk5GRdm2DgaEXRdkfNel2XRldA0WN4oGqc/edit \"‌\") from 7th February 2024. The sentence was a 5 day Class E suspension. The case presents the following charges:\n   1. Failure to Comply as provided by title II. of the Foundation Code, section 3 § 9(a); Class B Misdemeanor\n   2. Causing a Public Disturbance as provided by title II. of the Foundation Code, section 3 § 2(c); Class C Misdemeanor\n\n### Case Elements\n\n1. Is the CRB's discretion in sentencing absolute as long as it is used consistently and in accordance with the Foundation Code?\n2. If the answer to point 1 is no, what are the mitigating and aggravating circumstances that should be considered when deciding the sentence, and what should be the sentence if there is absence of any such circumstances?\n   1. Does the treatment of a person(s) under detainment affect the severity of the sentence the Criminal Review Board should issue?\n      1. Were the following efforts, or the lack thereof, taken by the law enforcement authorities unreasonable?\n         1. Being killed by Military Police, after the petitioner refused to get off the road.\n         2. Being left sitting in a chair, cuffed, so that any Foundation Personnel could spectate the interrogation.\n         3. Not taking required precautions to prevent the petitioner from being killed by Class-D personnel.\n         4. Being teleported back to the Ethics Committee interrogation room via in-game admin commands.\n            1. If so, is a sentence reduction to a 2 day Class E sentence reasonable?\n3. Was the Criminal Review Board's decision in sentencing correct?\n\n### Ruling\n\n**Conclusions of Law**\n\n1. In regards to point 1, the answer is no. The Criminal Review Board's decisions on sentencing, which albeit may be legal and consistent, shall be subject to review by the Judicial Review Board if an appellate order is created. The Judicial Review Board serves as an appellate entity, a forum for those subject to an action to find justice in the case against them. In an effort to maintain a consistent criminal and justice system, the Judicial Review Board must, as the only and final appellate entity, maintain appellate jurisdiction over the Criminal Review Board's discretion in sentencing. **(PASSED)**\n2. A judicial authority with the discretion to issue multiple punishments or a punishment of various length shall:\n   1. consider the following as mitigating circumstances:\n      1. the offender confessed to the offense;\n      2. the offender committed the offense negligently;\n      3. the offender committed the offense out of lack of experience or knowledge;\n      4. the offender committed the offense because of poor or wrong understanding of the law;\n      5. the offender committed no criminal offenses before;\n      6. the nature of the offense suggested the applicability of a criminal liability exception without fully meeting its conditions;\n      7. the offender clearly demonstrated remorse and was fully compliant with law enforcement and judicial authorities; and\n   2. consider the following as aggravating circumstances:\n      1. the offender committed the offense purposefully or with premeditation or after previous deliberation;\n      2. the offender abused their power, standing, or position by committing the offense;\n      3. the offender committed the offense as a member of an organized group or conspiracy;\n      4. the offender was disrespectful or demonstrated contempt to law enforcement or judicial authorities or the judicial system in general; and\n   3. may further consider the following factors:\n      1. the extent of the offense, the amount of victims or specific acts, and the duration of the offense’s commission;\n      2. the interest of protecting the community against immoral and unacceptable conduct;\n      3. the interest of crime prevention by deterrence and rehabilitation; and\n      4. the interest of restoring justice, repairing or stopping the harm caused by the crime. **(PASSED)**\n3. The board finds no flaws in the Criminal Review Board's decision. Applying the guidelines from conclusion 1, the board believes that there are two aggravating circumstances to be considered in accordance with clauses i. and iv. of part 2 of that conclusion. Furthermore, the board believes that the interest of crime prevention by rehabilitation must be considered, whereas a lower crime would have a lower chance of sufficiently deterring the defendant from repeating such an offense in the future. The sentencing range is anywhere from a formal warning to a 6 day class E sentence, and so considering the specified circumstances, the board considers a 5 day class E sentence adequate. **(PASSED)**\n\n**Order**\n\nIn light of the conclusions of law, the board upholds the contested action. **(PASSED)**\n\n**Vote**\n\n1. The Judicial Review Board decided on the first conclusion of law in accordance with rule 7 of subarticle 3(a) of the Board Procedure as follows (full supermajority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Aye\n   3. ViscountSamuel - Aye\n   4. JaroCycle - Absent\n   5. Winter_Selection - Aye\n2. The Judicial Review Board decided on the second conclusion of law in accordance with rule 7 of subarticle 3(a) of the Board Procedure as follows (full supermajority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Aye\n   3. ViscountSamuel - Aye\n   4. JaroCycle - Absent\n   5. Winter_Selection - Aye\n3. The Judicial Review Board decided on the third conclusion of law in accordance with rule 6 of subarticle 3(a) of the Board Procedure as follows (full majority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Excluded in accordance with subrule 3(d) of article 2 of the Board Procedure, conflict of interest\n   3. ViscountSamuel - Aye\n   4. JaroCycle - Absent\n   5. Winter_Selection - Aye\n4. The Judicial Review Board decided on the order in accordance with rule 6 of subarticle 3(a) of the Board Procedure as follows (full majority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Excluded in accordance with subrule 3(d) of article 2 of the Board Procedure, conflict of interest\n   3. ViscountSamuel - Aye\n   4. JaroCycle - Absent\n   5. Winter_Selection - Aye",
+         "descData":{
+            "emoji":{
+               
+            }
+         },
+         "due":"2024-03-02T06:00:00.000Z",
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321pzlrvy8t4aggg1mx+09hfytrf7p@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f916c"
+         ],
+         "idList":"65df4ee296f11d2d698ac409",
+         "idMembers":[
+            "5e8130964a6adc839ca08590",
+            "6043ee819dda4f6429f89414"
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":42,
+         "idAttachmentCover":null,
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f916c",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Appellate Order",
+               "color":"orange",
+               "uses":17
+            }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
+         },
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"d2holder v. Criminal Review Board",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65e101a992fa7716c89c5c49",
+         "pos":131072,
+         "shortLink":"CKrGOFpe",
+         "shortUrl":"https://trello.com/c/CKrGOFpe",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":true,
+         "url":"https://trello.com/c/CKrGOFpe/42-d2holder-v-criminal-review-board",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            {
+               "id":"65e2c0af263569f92a992f68",
+               "bytes":null,
+               "date":"2024-03-02T06:01:19.728Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":16384,
+               "fileName":"IuojVq3l"
+            },
+            {
+               "id":"65e377f8d461d99136f7e5ff",
+               "bytes":null,
+               "date":"2024-03-02T19:03:20.073Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
+      },
+      {
+         "id":"65e10528bc8fbfaa68578f90",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":2
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":true,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":2,
+            "description":true,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
+            "start":null
+         },
+         "checkItemStates":[
+            
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-04T02:24:43.840Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:** oliveraxelgaard\n- **Petitioner’s ROBLOX ID:** 348408294\n- **Entity:** Criminal Review Board\n- **Type:** Appellate Order\n- **Reference Number:** AR-16:502-24\n- **Handling Officer:** Winter_Selection, on behalf of SoroLover123\n\n### Case\n\n1. Case [24-005-10-O384](https://docs.google.com/document/d/1BCGSPU746s068EAo7QuCvWSdhEi45oJJmqWOKagyVJ0/edit \"‌\") from 20th, February 2024. The sentence was a formal warning. The case presents the following charges:\n   1. Driving without License as provided by title II. of the Foundation Code, section 3 § 3(a); Class B Misdemeanor\n   2. Trespassing into General Areas as provided by title II. of the Foundation Code, section 3 § 6(a); Class C misdemeanor\n\n### Case Elements\n\n1. Could the defendant have been reasonably expected to know that they are entering the inner area of the CDC containment?\n   1. The defendant had entered the area through the guardline access halls on the ScD team.\n   2. The ScD team’s key-card has access to those doors.\n   3. The doors that the defendant entered through had a sign stating they are restricted.\n   4. The defendant continued from the guardline to the CDC mines.\n   5. The defendant is an ScD entrant with previous criminal record which speaks to their understanding of the installation structure.\n\n### Ruling\n\n**Finding of Fact (passed)**\n\n1. Yes, it was made very clear to them that the area was restricted, shown by the sign and the defendant should have also been aware of the installation restrictions and procedures.\n\n**Order (passed)**\n\nThe board upholds the contested action.\n\n**Vote**\n\n1. The Judicial Review Board decided on the finding of fact and on the order in accordance with rule 5 of subarticle 3(a) of the Board Procedure as follows (magistrate’s decision):\n   1. Approved by Magistrate SoroLover123",
+         "descData":{
+            "emoji":{
+               
+            }
+         },
+         "due":"2024-03-02T06:00:00.000Z",
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321q2akspjyvb9j4scw+0xcs8opkx0@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f916c"
+         ],
+         "idList":"65df4ee296f11d2d698ac409",
+         "idMembers":[
+            "5e8130964a6adc839ca08590",
+            "6043ee819dda4f6429f89414"
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":43,
+         "idAttachmentCover":null,
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f916c",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Appellate Order",
+               "color":"orange",
+               "uses":17
+            }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
+         },
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"oliveraxelgaard v. Criminal Review Board",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65e10528bc8fbfaa68578f90",
+         "pos":155648,
+         "shortLink":"6xgqh7hI",
+         "shortUrl":"https://trello.com/c/6xgqh7hI",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":true,
+         "url":"https://trello.com/c/6xgqh7hI/43-oliveraxelgaard-v-criminal-review-board",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            {
+               "id":"65e2c0b3d0119ca705ff7acf",
+               "bytes":null,
+               "date":"2024-03-02T06:01:23.087Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":16384,
+               "fileName":"IuojVq3l"
+            },
+            {
+               "id":"65e377f88e587e52f43cc01a",
+               "bytes":null,
+               "date":"2024-03-02T19:03:20.611Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
+      },
+      {
+         "id":"65dfdb0ecc8ba1d7e61aed13",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":2
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":true,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":2,
+            "description":true,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
+            "start":null
+         },
+         "checkItemStates":[
+            
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-04T02:24:45.208Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:** syncouI\n- **Petitioner’s ROBLOX ID:** 302884667\n- **Entity:** Ethics Committee\n- **Type:** Expungement Order\n- **Reference Number:** EX-10:502-24\n- **Handling Officer:** SoroLover123, Magistrate\n\n### Cases\n\n1. Case [24-005-10-S302/01](https://docs.google.com/document/d/1JEBbaLhYh2Wqd5gen1iaP_WVzVq0yV9EP5_qqJOP0w4/edit \"‌\") from 23 February 2024. The sentence was a formal warning. The case presents the following charges:\n   1. Trespassing as provided by title II. of the Foundation Code, section 3 § 6(a), clause i.; Class C Misdemeanor\n   2. Criminal Interaction with the Pandora Crysta as provided by title II. of the Foundation Code, section 3 § 5(a); Class C Misdemeanor\n\n### Petition\n\nThe petition may be found within the ticket records of the Ethics Committee, #2173.\n\n1. The petitioner has committed no other crimes than the case to be expunged, staying clear of any criminal liability for the past week.\n2. The petitioner has maintained an active commitment to the foundation within the last week, being an active member of the Security Department, playing for an hour a day.\n3. The petitioner had no disciplinary issues in the past week since their case.\n4. The petitioner believes the cause of the punishment to be their lack of knowledge of the legislative documents and Pandora range and believes that this was corrected, demonstrated by their progress to Security Agent within the Security Department, and them also stating that they did immediately review the legislative documents after the punishments.\n5. It may seem to have been far too short of a timeframe to effectively and adequately conclude that the petitioner had indeed improved after this crime.\n\n### Ruling\n\n**Order**\n\nThe expungement request is denied. The board doesn't believe that the defendant sufficiently demonstrated a change in standards.\n\n**Vote**\n\n1. The Judicial Review Board decided on the order in accordance with subrule 4(b) of subarticle 3(c) of the Board Procedure, whereas the voting procedure has been adjusted in accordance with rule 8(c) of article 2 of the Board Procedure, as follows (full supermajority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Aye\n   3. ViscountSamuel - Aye\n   4. JaroCycle - Absent\n   5. Winter_Selection - Aye",
+         "descData":{
+            "emoji":{
+               
+            }
+         },
+         "due":"2024-03-02T06:00:00.000Z",
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321jp1z08af2urtia6r+1v7jl3xc27@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f9171"
+         ],
+         "idList":"65df4ee296f11d2d698ac409",
+         "idMembers":[
+            "65df8d7c3fa3201d6b2175f6",
+            "6043ee819dda4f6429f89414"
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":36,
+         "idAttachmentCover":null,
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f9171",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Expungement Order",
+               "color":"green",
+               "uses":5
+            }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
+         },
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"syncouI v. Ethics Committee",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65dfdb0ecc8ba1d7e61aed13",
+         "pos":393216,
+         "shortLink":"zuxaxnUK",
+         "shortUrl":"https://trello.com/c/zuxaxnUK",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":true,
+         "url":"https://trello.com/c/zuxaxnUK/36-syncoui-v-ethics-committee",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            {
+               "id":"65e2c09e74873608b9ffddf5",
+               "bytes":null,
+               "date":"2024-03-02T06:01:02.608Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":16384,
+               "fileName":"IuojVq3l"
+            },
+            {
+               "id":"65e377fa00382c5faf258035",
+               "bytes":null,
+               "date":"2024-03-02T19:03:22.275Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
+      },
+      {
+         "id":"65e0d10658e0cab499a0e77b",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":2
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":true,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":2,
+            "description":true,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
+            "start":null
+         },
+         "checkItemStates":[
+            
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-04T02:24:46.290Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:** LancasterMkIlI\n- **Petitioner’s ROBLOX ID:** 3019587152\n- **Entity:** Ethics Committee\n- **Type:** Expungement Order\n- **Reference Number:** EX-11:502-24\n- **Handling Officer:** SoroLover123, Magistrate\n\n### Cases\n\n1. Case [23-006-10-0056](https://docs.google.com/document/d/1ZyHk-P2x1ISU6bxk96C6bn6WxIWG30ZQJFXMRv3l6u8/edit \"‌\") from 22nd June 2023. The sentence was an 8 day Class-E suspension. The case presents the following charges:\n   1. 3 § 8(d) - Improper Interactions with Anomalies, interfering with Containment of an Anomaly\n   2. 5 § 4(i) - Obstruction of Justice\n\n### Petition\n\n1. The petitioner has committed more crimes since the case they are requesting expungement for, with the most recent one being committed in January 2024.\n2. The petitioner has maintained an active commitment to the foundation within the last 2 months, being a semi-active member of the Scientific Department.\n3. The petitioner had no disciplinary issues in their department the past month since their most recent case\n4. The petitioner believes the cause of the punishment to be their lack of knowledge on the rules of the Foundation, as they stated they were quite new and getting used to the rules and believes that this was corrected, demonstrated by their progress within the foundation, achieving the rank of Junior Researcher within the Scientific Department and the rank of Security Class-2.\n5. It should also be noted that a few weeks later, the clause and context of the breaching anomalies crime that the defendant committed was  made lawful.\n6. It seems that the petitioner has committed crimes frequently since this crime as evident by them having several dress code violations and a few failure to comply violations, due to them violating the dress code after being specifically warned to not do so, they have also had an Obstruction of Justice charge.\n\n### Ruling\n\n**Order**\n\nThe expungement request is denied. The board doesn't believe that the defendant sufficiently demonstrated a change in standards or character.\n\n**Vote**\n\n1. The Judicial Review Board decided on the order in accordance with subrule 4(b) of subarticle 3(c) of the Board Procedure, whereas the voting procedure has been adjusted in accordance with rule 8(c) of article 2 of the Board Procedure, as follows (full supermajority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Aye\n   3. ViscountSamuel - Aye\n   4. JaroCycle - Absent\n   5. Winter_Selection - Aye",
+         "descData":{
+            "emoji":{
+               
+            }
+         },
+         "due":"2024-03-02T06:00:00.000Z",
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321oy7ao285b83hqquz+2kkpeaevud@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f9171"
+         ],
+         "idList":"65df4ee296f11d2d698ac409",
+         "idMembers":[
+            "65df8d7c3fa3201d6b2175f6",
+            "6043ee819dda4f6429f89414"
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":37,
+         "idAttachmentCover":null,
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f9171",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Expungement Order",
+               "color":"green",
+               "uses":5
+            }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
+         },
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"LancasterMkIlI v. Ethics Committee",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65e0d10658e0cab499a0e77b",
+         "pos":425984,
+         "shortLink":"Eg1IwwiX",
+         "shortUrl":"https://trello.com/c/Eg1IwwiX",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":true,
+         "url":"https://trello.com/c/Eg1IwwiX/37-lancastermkili-v-ethics-committee",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            {
+               "id":"65e2c0a19a0cecdb7da792f6",
+               "bytes":null,
+               "date":"2024-03-02T06:01:05.511Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":16384,
+               "fileName":"IuojVq3l"
+            },
+            {
+               "id":"65e377fa225cb2ea7f0b79fb",
+               "bytes":null,
+               "date":"2024-03-02T19:03:22.827Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
+      },
+      {
+         "id":"65e1aa5340e331da8fb66ad0",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":2
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":true,
+            "fogbugz":"",
+            "checkItems":0,
+            "checkItemsChecked":0,
+            "checkItemsEarliestDue":null,
+            "comments":0,
+            "attachments":2,
+            "description":true,
+            "due":"2024-03-02T06:00:00.000Z",
+            "dueComplete":true,
+            "start":null
+         },
+         "checkItemStates":[
+            
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":true,
+         "dateLastActivity":"2024-03-04T02:24:38.023Z",
+         "desc":"### Information\n\n- **Petitioner’s ROBLOX Username:** Crucilous\n- **Petitioner’s ROBLOX ID:** 1793936333\n- **Entity:** Ethics Committee\n- **Type:** Expungement Order\n- **Reference Number:** EX-19:Y02-24\n- **Handling Officer:** SoroLover123, Magistrate\n\n### Cases\n\n1. Case [24-005-10-C179/01](https://docs.google.com/document/d/1HxV6aww2kKPhOx-RFCjzSWEize25yVAOaHH6lP6bqeI/edit \"‌\") from 27th January 2024. The sentence was a formal warning. The case presents the following charges:\n   1. Trespassing as provided by title II. of the Foundation Code, section 3 § 6(a), clause i.; Class C Misdemeanor\n   2. Improper Interactions with hostiles as provided by title II. of the Foundation Code, section 3 § 10(a); Class C Misdemeanor\n\n### Petition\n\n1. The petitioner has committed no other crimes than the case to be expunged, staying clear of any criminal liability for the past month\n2. The petitioner has not maintained an active commitment to the foundation within the last  month, being an inactive member of the Scientific Department, that has only passed their Entrant Orientation\n3. The petitioner had no disciplinary issues in the past month.\n4. The petitioner believes the cause of the punishment to be their lack of knowledge and believes that this was corrected, demonstrated by their progress within the foundation and lack of further criminal liability.  This can be further demonstrated by them receiving the rank of Security Class-2, often known as the most knowledagable low ranking Foundation Personnel.\n\n### Ruling\n\n**Order**\n\nThe expungement request is denied. The board doesn't believe that the defendant sufficiently demonstrated a change in standards because of their lack of active commitment since the crime.\n\n**Vote**\n\n1. The Judicial Review Board decided on the order in accordance with subrule 4(b) of subarticle 3(c) of the Board Procedure, whereas the voting procedure has been adjusted in accordance with rule 8(c) of article 2 of the Board Procedure, as follows (full supermajority):\n   1. Vasek_Stolba - Aye\n   2. SoroLover123 - Aye\n   3. ViscountSamuel - Aye\n   4. JaroCycle - Absent\n   5. Winter_Selection - Aye",
+         "descData":{
+            "emoji":{
+               
+            }
+         },
+         "due":"2024-03-02T06:00:00.000Z",
+         "dueReminder":-1,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321tlb0nc3dmivw9k9c+109uspo4b3@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            
+         ],
+         "idLabels":[
+            "65df4534d0bdb9e2727f9171"
+         ],
+         "idList":"65df4ee296f11d2d698ac409",
+         "idMembers":[
+            "65df8d7c3fa3201d6b2175f6",
+            "6043ee819dda4f6429f89414"
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":46,
+         "idAttachmentCover":null,
+         "labels":[
+            {
+               "id":"65df4534d0bdb9e2727f9171",
+               "idBoard":"65df4534f81dc4b04036b161",
+               "name":"Expungement Order",
+               "color":"green",
+               "uses":5
+            }
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
+         },
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"Crucilous v. Ethics Committee",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65e1aa5340e331da8fb66ad0",
+         "pos":458752,
+         "shortLink":"dEUKh7uK",
+         "shortUrl":"https://trello.com/c/dEUKh7uK",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":true,
+         "url":"https://trello.com/c/dEUKh7uK/46-crucilous-v-ethics-committee",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            {
+               "id":"65e2c0bbb7522f3e8877c826",
+               "bytes":null,
+               "date":"2024-03-02T06:01:31.529Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":16384,
+               "fileName":"IuojVq3l"
+            },
+            {
+               "id":"65e377fbff4175bbbf866ba0",
+               "bytes":null,
+               "date":"2024-03-02T19:03:23.370Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/IuojVq3l",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/IuojVq3l",
+               "pos":32768,
+               "fileName":"IuojVq3l"
+            }
+         ],
+         "pluginData":[
+            
+         ],
+         "customFieldItems":[
+            
+         ]
+      },
+      {
+         "id":"65dfad1c8d2f65faa94c77fc",
+         "address":null,
+         "badges":{
+            "attachmentsByType":{
+               "trello":{
+                  "board":0,
+                  "card":13
+               }
+            },
+            "location":false,
+            "votes":0,
+            "viewingMemberVoted":false,
+            "subscribed":true,
+            "fogbugz":"",
+            "checkItems":13,
+            "checkItemsChecked":11,
+            "checkItemsEarliestDue":null,
+            "comments":1,
+            "attachments":13,
+            "description":true,
+            "due":null,
+            "dueComplete":false,
+            "start":null
+         },
+         "checkItemStates":[
+            {
+               "idCheckItem":"65e377f42ec08dbc039f4957",
+               "state":"complete"
+            },
+            {
+               "idCheckItem":"65e377f5c922c3c3856e4c7c",
+               "state":"complete"
+            },
+            {
+               "idCheckItem":"65e377f5bfff663baaa6491c",
+               "state":"complete"
+            },
+            {
+               "idCheckItem":"65e377f6b37c4e6fea3eb9e5",
+               "state":"complete"
+            },
+            {
+               "idCheckItem":"65e377f696b51697715cd53b",
+               "state":"complete"
+            },
+            {
+               "idCheckItem":"65e377f748f9bbc249a82a28",
+               "state":"complete"
+            },
+            {
+               "idCheckItem":"65e377f7bd8f1fce8f868fe5",
+               "state":"complete"
+            },
+            {
+               "idCheckItem":"65e377f800fb569884c44751",
+               "state":"complete"
+            },
+            {
+               "idCheckItem":"65e377fab4e91db5ae66f944",
+               "state":"complete"
+            },
+            {
+               "idCheckItem":"65e377fa2d3922992ac7da4b",
+               "state":"complete"
+            },
+            {
+               "idCheckItem":"65e377fb4ab91038f760145b",
+               "state":"complete"
+            }
+         ],
+         "closed":false,
+         "coordinates":null,
+         "creationMethod":null,
+         "dueComplete":false,
+         "dateLastActivity":"2024-03-08T14:27:04.442Z",
+         "desc":"2nd March 2024\n\nPresent:\n\n- Sorolover123\n- Winter_Selection\n- AkayaAstraea\n- SupremeDGYT\n- cjk04\n- Vasek_Stolba\n- ViscountSamuel\n- OMlN0U5\n\nAbsent:\n\n- JaroCycle - Excluded in accordance with rule 3(c) of article 2 of the Board Procedure.\n\nPresent Members with Voting Privileges:\n\n- SoroLover123\n- ViscountSamuel\n- Vasek_Stolba\n- Winter_Selection",
+         "descData":{
+            "emoji":{
+               
+            }
+         },
+         "due":null,
+         "dueReminder":null,
+         "email":"vasek_stolba+2vzfge03dyf4g67sk5w+321ipq00m3g3hu091j0+2mspkmlrqo@boards.trello.com",
+         "idBoard":"65df4534f81dc4b04036b161",
+         "idChecklists":[
+            "65e377f3260a59803ad7eb07"
+         ],
+         "idLabels":[
+            
+         ],
+         "idList":"65df4ee7557b179b1ded753a",
+         "idMembers":[
+            
+         ],
+         "idMembersVoted":[
+            
+         ],
+         "idOrganization":"6085b2270facff054bb4da14",
+         "idShort":34,
+         "idAttachmentCover":null,
+         "labels":[
+            
+         ],
+         "limits":{
+            "attachments":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":1000,
+                  "warnAt":800
+               }
+            },
+            "checklists":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":500,
+                  "warnAt":400
+               }
+            },
+            "stickers":{
+               "perCard":{
+                  "status":"ok",
+                  "disableAt":70,
+                  "warnAt":56
+               }
+            }
+         },
+         "locationName":null,
+         "manualCoverAttachment":false,
+         "name":"9-24 Board Meeting",
+         "nodeId":"ari:cloud:trello::card/workspace/6085b2270facff054bb4da14/65dfad1c8d2f65faa94c77fc",
+         "pos":16384,
+         "shortLink":"IuojVq3l",
+         "shortUrl":"https://trello.com/c/IuojVq3l",
+         "staticMapUrl":null,
+         "start":null,
+         "subscribed":true,
+         "url":"https://trello.com/c/IuojVq3l/34-9-24-board-meeting",
+         "cover":{
+            "idAttachment":null,
+            "color":null,
+            "idUploadedBackground":null,
+            "size":"normal",
+            "brightness":"dark",
+            "idPlugin":null
+         },
+         "isTemplate":false,
+         "cardRole":null,
+         "attachments":[
+            {
+               "id":"65e2c0965bd603082af6ac14",
+               "bytes":null,
+               "date":"2024-03-02T06:00:54.821Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/7BO2dUPY",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/7BO2dUPY",
+               "pos":16384,
+               "fileName":"7BO2dUPY"
+            },
+            {
+               "id":"65e2c09ec523d07328846098",
+               "bytes":null,
+               "date":"2024-03-02T06:01:02.488Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/zuxaxnUK",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/zuxaxnUK",
+               "pos":32768,
+               "fileName":"zuxaxnUK"
+            },
+            {
+               "id":"65e2c0a147ae8be3ae5ff90b",
+               "bytes":null,
+               "date":"2024-03-02T06:01:05.427Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/Eg1IwwiX",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/Eg1IwwiX",
+               "pos":49152,
+               "fileName":"Eg1IwwiX"
+            },
+            {
+               "id":"65e2c0a4c72af37b73905e0e",
+               "bytes":null,
+               "date":"2024-03-02T06:01:08.166Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/giSn95dw",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/giSn95dw",
+               "pos":65536,
+               "fileName":"giSn95dw"
+            },
+            {
+               "id":"65e2c0a6233fcdf69ee1f3b8",
+               "bytes":null,
+               "date":"2024-03-02T06:01:10.860Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/Zy2ynRBn",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/Zy2ynRBn",
+               "pos":81920,
+               "fileName":"Zy2ynRBn"
+            },
+            {
+               "id":"65e2c0a9e1341602f4d2b8c0",
+               "bytes":null,
+               "date":"2024-03-02T06:01:13.550Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/of5HAtsq",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/of5HAtsq",
+               "pos":98304,
+               "fileName":"of5HAtsq"
+            },
+            {
+               "id":"65e2c0ac925a9da31bff320f",
+               "bytes":null,
+               "date":"2024-03-02T06:01:16.304Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/4IWGIo5T",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/4IWGIo5T",
+               "pos":114688,
+               "fileName":"4IWGIo5T"
+            },
+            {
+               "id":"65e2c0af2edaa7494192bb2c",
+               "bytes":null,
+               "date":"2024-03-02T06:01:19.628Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/CKrGOFpe",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/CKrGOFpe",
+               "pos":131072,
+               "fileName":"CKrGOFpe"
+            },
+            {
+               "id":"65e2c0b28c86c49a90f00ba5",
+               "bytes":null,
+               "date":"2024-03-02T06:01:22.970Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/6xgqh7hI",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/6xgqh7hI",
+               "pos":147456,
+               "fileName":"6xgqh7hI"
+            },
+            {
+               "id":"65e2c0b84f641124389e4c8e",
+               "bytes":null,
+               "date":"2024-03-02T06:01:28.525Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/MKQCJRU4",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/MKQCJRU4",
+               "pos":180224,
+               "fileName":"MKQCJRU4"
+            },
+            {
+               "id":"65e2c0bbd168c5009348e708",
+               "bytes":null,
+               "date":"2024-03-02T06:01:31.468Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/dEUKh7uK",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/dEUKh7uK",
+               "pos":196608,
+               "fileName":"dEUKh7uK"
+            },
+            {
+               "id":"65e3724ef928e17f84baef26",
+               "bytes":null,
+               "date":"2024-03-02T18:39:10.963Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/mx1GUrPe",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/mx1GUrPe",
+               "pos":229376,
+               "fileName":"mx1GUrPe"
+            },
+            {
+               "id":"65e3725e190f653b0940aa19",
+               "bytes":null,
+               "date":"2024-03-02T18:39:26.297Z",
+               "edgeColor":null,
+               "idMember":"6043ee819dda4f6429f89414",
+               "isUpload":false,
+               "mimeType":"",
+               "name":"https://trello.com/c/dnlWkqUk",
+               "previews":[
+                  
+               ],
+               "url":"https://trello.com/c/dnlWkqUk",
+               "pos":245760,
+               "fileName":"dnlWkqUk"
+            }
          ],
          "pluginData":[
             
