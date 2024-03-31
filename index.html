@@ -11,68 +11,59 @@
         color: #f9f9f9;
         font-family: calibri;
       }
-            a[href]::after {
-        content: " (" attr(href) ")";
-        color: inherit;
-        text-decoration: none;
+      /* Style the search bar */
+      #search-bar {
+        width: 300px;
+        height: 30px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: calibri;
+        color: #333;
       }
 
-      a[href]:after {
-        display: inline-block;
-        pointer-events: none;
-        margin-left: 0.5em;
+      #search-bar:focus {
+        outline: none;
+        box-shadow: 0 0 2px 1px #337ab7;
       }
 
-      a[href]:hover:after {
-        text-decoration: underline;
+      #search-bar::placeholder {
+        color: #999;
       }
 
-      a[href]:active,
-      a[href]:focus {
+      /* Style the search button */
+      #search-button {
+        border: none;
+        border-radius: 10px;
+        padding: 5px 10px;
+        line-height: 30px;
+        background-color: #337ab7;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: calibri;
+        cursor: pointer;
+      }
+
+      #search-button:hover {
+        background-color: #23527c;
+      }
+
+      #search-button:active {
+        background-color: #1d3f5b;
+      }
+
+      #search-button:focus {
         outline: none;
       }
 
-      a[href]:focus:not(:focus-visible) {
-        box-shadow: 0 0 0 2px #000000;
+      #search-button:disabled {
+        background-color: #ccc;
+        color: #999;
+        cursor: not-allowed;
       }
-
-      a[href]:not(:focus-visible) {
-        pointer-events: none;
-      }
-
-      a[href]:not(:focus-visible):hover {
-        cursor: pointer;
-        text-decoration: underline;
-      }
-
-      a[href]:not(:focus-visible):active {
-        outline: 2px dotted;
-        outline-offset: 2px;
-      }
-
-      a[href]:not(:focus-visible):focus {
-        outline: 2px dotted;
-        outline-offset: 2px;
-      }
-
-      a[href]:not(:focus-visible):focus:before {
-        content: "";
-      }
-
-      a[href]:not(:focus-visible):focus:after {
-        content: "";
-      }
-
-      a[href]:not(:focus-visible):active:before {
-        content: "";
-      }
-
-      a[href]:not(:focus-visible):active:after {
-        content: "";
-      }
-
-      a[href][target="_blank"]:after {
-        display: none;
     </style>
     <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.1.0/dist/markdown-it.min.js"></script>
     <script src="script.js"></script>
@@ -81,5 +72,26 @@
     <input type="text" id="search-bar" placeholder="Search..." />
     <button onclick="searchPhr()">Search</button>
     <div id="result"></div>
+
+    <!-- Set target="_blank" for all hyperlinks -->
+    <script>
+      const links = document.querySelectorAll("a");
+      links.forEach((link) => {
+        link.setAttribute("target", "_blank");
+      });
+
+    <!-- Enable the search button when the search bar is not empty -->
+    <script>
+      const searchBar = document.querySelector("#search-bar");
+      const searchButton = document.querySelector("#search-button");
+
+      searchBar.addEventListener("input", () => {
+        if (searchBar.value.trim()) {
+          searchButton.removeAttribute("disabled");
+        } else {
+          searchButton.setAttribute("disabled", "");
+        }
+      });
+    </script>
   </body>
 </html>
