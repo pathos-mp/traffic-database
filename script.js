@@ -39,13 +39,13 @@ function searchPhr() {
           if (entry.desc && md.render(entry.desc).toLowerCase().includes(searchTerm)) {
             const updatedDesc = entry.desc.replace(/(?=#\w+)\#/g, "# "); // add a space after the hashtag if it's followed by a word
             highlightedText = md.render(updatedDesc).replace(
-              new RegExp("(" + searchTerm + ")", "gi"),
+              new RegExp("(\\b" + searchTerm + "\\b)", "gi"),
               "<span class='highlight'>$1</span>"
             );
             propertyName = "";
           } else if (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm)) {
             highlightedText = entry.shortUrl.replace(
-              new RegExp("(" + searchTerm + ")", "gi"),
+              new RegExp("(\\b" + searchTerm + "\\b)", "gi"),
               "<span class='highlight'>$1</span>"
             );
             propertyName = "Short URL";
@@ -56,7 +56,7 @@ function searchPhr() {
           return `
             <div>
               <h2><b>${entry.name}</b></h2>
-              <p><strong>${propertyName}:</strong> ${highlightedText}</p>
+              <p><strong>${propertyName}</strong> ${highlightedText}</p>
             </div>
           `;
         });
