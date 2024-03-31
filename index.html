@@ -93,6 +93,15 @@
           searchButton.setAttribute("disabled", "");
         }
       });
+
+      searchBar.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          event.preventDefault();
+          if (searchBar.value.trim()) {
+            searchButton.click();
+          }
+        }
+      });
     </script>
   </body>
 </html>
