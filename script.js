@@ -42,7 +42,7 @@ function searchPhr() {
               new RegExp("(" + searchTerm + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
-            propertyName = "Description";
+            propertyName = "";
           } else if (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm)) {
             highlightedText = entry.shortUrl.replace(
               new RegExp("(" + searchTerm + ")", "gi"),
