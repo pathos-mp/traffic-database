@@ -19,7 +19,7 @@ function searchPhr() {
         const nameIncludesSearchTerm = entry.name.toLowerCase() == searchTerm;
 
         if (nameIncludesSearchTerm) {
-          return `
+          resultDiv.innerHTML = `
             <div>
               <h2><b>${entry.name}</b></h2>
               <p>${entry.desc}</p>
