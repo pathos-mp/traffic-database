@@ -26,7 +26,7 @@ function searchPhr() {
               const renderedMarkdown = markdownit().render(entry[property]);
               const highlightedProperty = renderedMarkdown.replace(
                 /(Suspended|Revoked|Caution)/g,
-                "<span class='highlight'>$1</span>"
+                "<span class='highlight-red'>$1</span>"
               ).replace(
                 new RegExp("(\\b" + searchTerm + "\\b)", "gi"),
                 "<span class='highlight'>$1</span>"
@@ -41,7 +41,7 @@ function searchPhr() {
           if (entry.desc && entry.desc.toLowerCase().includes(searchTerm)) {
             highlightedText = entry.desc.replace(
               /(Suspended|Revoked|Caution)/g,
-              "<span class='highlight'>$1</span>"
+              "<span class='highlight-red'>$1</span>"
             ).replace(
               new RegExp("(\\b" + searchTerm + "\\b)", "gi"),
               "<span class='highlight'>$1</span>"
