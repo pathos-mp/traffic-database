@@ -19,12 +19,14 @@ function searchPhr() {
         const nameIncludesSearchTerm = entry.name.toLowerCase() == searchTerm;
 
         if (nameIncludesSearchTerm) {
-          return {
-            name: entry.name,
-            desc: entry.desc,
-            dateLastActive: entry.dateLastActive,
-            shortUrl: entry.shortUrl
-          };
+          return `
+            <div>
+              <h2><b>${entry.name}</b></h2>
+              <p>${entry.desc}</p>
+              <p><strong>Last edited:</strong> ${entry.dataLastActive}</p>
+              <p><strong>Link:</strong> ${entry.shortUrl}</p>
+            </div>
+          `;
         }
 
         return descIncludesSearchTerm || shortUrlIncludesSearchTerm;
