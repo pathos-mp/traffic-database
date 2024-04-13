@@ -16,7 +16,7 @@ function searchPhr() {
         const descRendered = md.render(entry.desc).toLowerCase();
         const descIncludesSearchTerm = descRendered.includes(searchTerm);
         const shortUrlIncludesSearchTerm = entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm);
-        const nameIncludesSearchTerm = entry.name.toLowerCase() === searchTerm;
+        const nameIncludesSearchTerm = entry.name.toLowerCase() == searchTerm;
 
         if (nameIncludesSearchTerm) {
           return {
