@@ -1,6 +1,6 @@
 function searchPhr() {
-  const searchTerm = document.querySelector("#search-bar").value.toLowerCase();
-  const resultDiv = document.querySelector("#result");
+  const searchTerm = document.getElementById("search-bar").value.toLowerCase();
+  const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
 
   fetch("data.json")
@@ -11,64 +11,58 @@ function searchPhr() {
       return response.json();
     })
     .then((data) => {
-      const entries = data.entries;
-      const highlightedEntries = entries.filter((entry) => {
-        let highlightedText = "";
-        let propertyName = "";
+      const md = window.markdownit();
+      const matchingEntries = data.entries.filter((entry) => {
+        const descRendered = md.render(entry.desc).toLowerCase();
+        const descIncludesSearchTerm = descRendered.includes(searchTerm);
+        const shortUrlIncludesSearchTerm = entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm);
+        const nameIncludesSearchTerm = entry.name.toLowerCase() === searchTerm;
 
-        if (entry.name.toLowerCase() === searchTerm) {
-          highlightedText = entry.name;
-          propertyName = "Name";
+        if (nameIncludesSearchTerm) {
+          return {
+            name: entry.name,
+            desc: entry.desc,
+            dateLastActive: entry.dateLastActive,
+            shortUrl: entry.shortUrl
+          };
+        }
 
-          const additionalProperties = ["desc", "dateLastActive", "shortUrl"];
-          additionalProperties.forEach((property) => {
-            if (entry[property]) {
-              const renderedMarkdown = markdownit().render(entry[property]);
-              const highlightedProperty = renderedMarkdown.replace(
-                /(Suspended|Revoked|Caution)/g,
-                "<span class='highlight-red'>$1</span>"
-              ).replace(
-                new RegExp("(\\b" + searchTerm + "\\b)", "gi"),
-                "<span class='highlight'>$1</span>"
-              );
-              propertyName += `, ${property}`;
-              highlightedText += `
-                <p><strong>${property}:</strong> ${highlightedProperty}</p>
-              `;
-            }
-          });
-        } else {
-          if (entry.desc && entry.desc.toLowerCase().includes(searchTerm)) {
-            highlightedText = entry.desc.replace(
-              /(Suspended|Revoked|Caution)/g,
-              "<span class='highlight-red'>$1</span>"
-            ).replace(
-              new RegExp("(\\b" + searchTerm + "\\b)", "gi"),
+        return descIncludesSearchTerm || shortUrlIncludesSearchTerm;
+      });
+
+      if (matchingEntries.length === 0) {
+        resultDiv.innerHTML = "No matching entries found.";
+      } else {
+        const highlightedEntries = matchingEntries.map((entry) => {
+          let highlightedText = "";
+          let propertyName = "";
+          if (entry.desc && md.render(entry.desc).toLowerCase().includes(searchTerm)) {
+            const updatedDesc = entry.desc.replace(/(?=#\w+)\#/g, "# "); // add a space after the hashtag if it's followed by a word
+            highlightedText = md.render(updatedDesc).replace(
+              new RegExp("(" + searchTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
-            propertyName = "Description";
+            propertyName = "";
           } else if (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm)) {
             highlightedText = entry.shortUrl.replace(
-              new RegExp("(\\b" + searchTerm + "\\b)", "gi"),
+              new RegExp("(" + searchTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + ")", "gi"),
               "<span class='highlight'>$1</span>"
             );
             propertyName = "Short URL";
           }
-        }
+          if (!highlightedText) {
+            return "";
+          }
+          return `
+            <div>
+              <h2><b>${entry.name}</b></h2>
+              <p><strong>${propertyName}</strong> ${highlightedText}</p>
+            </div>
+          `;
+        });
 
-        if (!highlightedText) {
-          return "";
-        }
-
-        return `
-          <div>
-            <h2><b>${highlightedText}</b></h2>
-            <p><strong>${propertyName}:</strong></p>
-          </div>
-        `;
-      });
-
-      resultDiv.insertAdjacentHTML("beforeend", highlightedEntries.join(""));
+        resultDiv.innerHTML = highlightedEntries.join("");
+      }
     })
     .catch((error) => {
       console.error("Error fetching data:", error);
