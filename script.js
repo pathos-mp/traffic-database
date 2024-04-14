@@ -33,6 +33,7 @@ function searchPhr() {
               <p><strong>Link:</strong> ${entry.shortUrl}</p>
             </div>
           `;
+          return true;
         }
 
         return descIncludesSearchTerm || shortUrlIncludesSearchTerm;
