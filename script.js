@@ -30,7 +30,7 @@ function searchPhr() {
               <h2><b>${entry.name}</b></h2>
               <p>${highlightedText2}</p>
               <p><strong>Last edited:</strong> ${entry.dateLastActivity}</p>
-              <p><strong>Link:</strong> ${entry.shortUrl}</p>
+              <p><strong>Link:</strong> <a href='${entry.shortUrl}' target=_blank style="color: initial>${entry.shortUrl}</a></p>
             </div>
           `;
           return true;
