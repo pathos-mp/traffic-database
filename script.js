@@ -22,7 +22,7 @@ function searchPhr() {
           const updatedDesc2 = entry.desc.replace(/(?=#\w+)\#/g, "# ");
           const redHighlightTerm = ["Caution", "Suspended", "Revoked"];
           let highlightedText2 = md.render(updatedDesc2).replace(
-            new RegExp("(" + redHighlightTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + ")", "gi"),
+            new RegExp("(" + redHighlightTerm + ")", "gi"),
               "<span class='highlight-red'>$1</span>"
             );
           resultDiv.innerHTML += `
