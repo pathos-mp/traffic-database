@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <base target="_blank">
     <title>Search</title>
     <style>
       .highlight {
@@ -82,15 +83,6 @@
     <input type="text" id="search-bar" placeholder="Search..." />
     <button id="search-button" onclick="searchPhr()" disabled>Search</button>
     <div id="result"></div>
-
-    <!-- Set target="_blank" for all hyperlinks -->
-    <script>
-      const links = document.querySelectorAll("a");
-      links.forEach((link) => {
-        link.setAttribute("target", "_blank");
-        link.setAttribute("style", "color: #efefef");
-      });
-    </script>
 
     <!-- Enable the search button when the search bar is not empty -->
     <script>
