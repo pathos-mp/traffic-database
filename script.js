@@ -4,7 +4,7 @@ function searchPhr() {
   resultDiv.innerHTML = "";
 
   // Set up the Trello API endpoint URL
-  const apiUrl = `https://api.trello.com/1/lists/65df4ee296f11d2d698ac409/cards`;
+  const apiUrl = `https://api.trello.com/1/lists/661ac877716e10351d2484e7/cards`;
 
   // Make the request to the Trello API
   fetch(apiUrl)
