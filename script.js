@@ -33,44 +33,45 @@ function searchPhr() {
               <p><strong>Link:</strong> ${entry.shortUrl}</p>
             </div>
           `;
-        }
+          
 
-        return descIncludesSearchTerm || shortUrlIncludesSearchTerm;
-      });
+          return descIncludesSearchTerm || shortUrlIncludesSearchTerm;
+        } else {
 
-      if (matchingEntries.length === 0) {
+          if (matchingEntries.length === 0) {
         resultDiv.innerHTML += "No matching entries found.";
-      } else {
-        const highlightedEntries = matchingEntries.map((entry) => {
-          let highlightedText = "";
-          let propertyName = "";
-          if (entry.desc && md.render(entry.desc).toLowerCase().includes(searchTerm)) {
-            const updatedDesc = entry.desc.replace(/(?=#\w+)\#/g, "# "); // add a space after the hashtag if it's followed by a word
-            highlightedText = md.render(updatedDesc).replace(
-              new RegExp("(" + searchTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + ")", "gi"),
-              "<span class='highlight'>$1</span>"
-            );
-            propertyName = "";
-          } else if (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm)) {
-            highlightedText = entry.shortUrl.replace(
-              new RegExp("(" + searchTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + ")", "gi"),
-              "<span class='highlight'>$1</span>"
-            );
-            propertyName = "Short URL";
-          }
-          if (!highlightedText) {
-            return "";
-          }
-          return `
-            <div>
-              <h2><b>${entry.name}</b></h2>
-              <p><strong>${propertyName}</strong> ${highlightedText}</p>
-            </div>
-          `;
-        });
+          } else {
+            const highlightedEntries = matchingEntries.map((entry) => {
+              let highlightedText = "";
+              let propertyName = "";
+              if (entry.desc && md.render(entry.desc).toLowerCase().includes(searchTerm)) {
+                const updatedDesc = entry.desc.replace(/(?=#\w+)\#/g, "# "); // add a space after the hashtag if it's followed by a word
+                highlightedText = md.render(updatedDesc).replace(
+                  new RegExp("(" + searchTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + ")", "gi"),
+                  "<span class='highlight'>$1</span>"
+                );
+                propertyName = "";
+              } else if (entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm)) {
+                highlightedText = entry.shortUrl.replace(
+                  new RegExp("(" + searchTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + ")", "gi"),
+                  "<span class='highlight'>$1</span>"
+                );
+                propertyName = "Short URL";
+              }
+              if (!highlightedText) {
+                return "";
+              }
+              return `
+                <div>
+                  <h2><b>${entry.name}</b></h2>
+                  <p><strong>${propertyName}</strong> ${highlightedText}</p>
+                </div>
+              `;
+            });
 
-        resultDiv.innerHTML += highlightedEntries.join("");
-      }
+            resultDiv.innerHTML += highlightedEntries.join("");
+          }
+      });
     })
     .catch((error) => {
       console.error("Error fetching data:", error);
