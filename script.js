@@ -29,7 +29,7 @@ function searchPhr() {
             <div>
               <h2><b>${entry.name}</b></h2>
               <p>${highlightedText2}</p>
-              <p><strong>Last edited:</strong> ${entry.dateLastActive}</p>
+              <p><strong>Last edited:</strong> ${entry.dateLastActivity}</p>
               <p><strong>Link:</strong> ${entry.shortUrl}</p>
             </div>
           `;
