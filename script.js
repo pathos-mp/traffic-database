@@ -19,11 +19,17 @@ function searchPhr() {
         const nameIncludesSearchTerm = entry.name.toLowerCase() == searchTerm;
 
         if (nameIncludesSearchTerm) {
+          const updatedDesc2 = entry.desc.replace(/(?=#\w+)\#/g, "# ");
+          const redHighlightTerm = ["Caution", "Suspended", "Revoked"];
+          let highlightedText2 = md.render(updatedDesc2).replace(
+            new RegExp("(" + redHighlightTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + ")", "gi"),
+              "<span class='highlight-red'>$1</span>"
+            );
           resultDiv.innerHTML += `
             <div>
               <h2><b>${entry.name}</b></h2>
-              <p>${entry.desc}</p>
-              <p><strong>Last edited:</strong> ${entry.dataLastActive}</p>
+              <p>${highlightedText2}</p>
+              <p><strong>Last edited:</strong> ${entry.dateLastActive}</p>
               <p><strong>Link:</strong> ${entry.shortUrl}</p>
             </div>
           `;
