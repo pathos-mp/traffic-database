@@ -19,7 +19,7 @@ function searchPhr() {
         const nameIncludesSearchTerm = entry.name.toLowerCase() == searchTerm;
 
         if (nameIncludesSearchTerm) {
-          resultDiv.innerHTML = `
+          resultDiv.innerHTML += `
             <div>
               <h2><b>${entry.name}</b></h2>
               <p>${entry.desc}</p>
@@ -33,7 +33,7 @@ function searchPhr() {
       });
 
       if (matchingEntries.length === 0) {
-        resultDiv.innerHTML = "No matching entries found.";
+        resultDiv.innerHTML += "No matching entries found.";
       } else {
         const highlightedEntries = matchingEntries.map((entry) => {
           let highlightedText = "";
@@ -63,11 +63,11 @@ function searchPhr() {
           `;
         });
 
-        resultDiv.innerHTML = highlightedEntries.join("");
+        resultDiv.innerHTML += highlightedEntries.join("");
       }
     })
     .catch((error) => {
       console.error("Error fetching data:", error);
-      resultDiv.innerHTML = "Error fetching data.";
+      resultDiv.innerHTML += "Error fetching data.";
     });
 }
