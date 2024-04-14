@@ -3,7 +3,11 @@ function searchPhr() {
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
 
-  fetch("data.json")
+  // Set up the Trello API endpoint URL
+  const apiUrl = `https://api.trello.com/1/lists/65df4ee296f11d2d698ac409/cards`;
+
+  // Make the request to the Trello API
+  fetch(apiUrl)
     .then((response) => {
       if (!response.ok) {
         throw new Error("HTTP error " + response.status);
@@ -12,7 +16,7 @@ function searchPhr() {
     })
     .then((data) => {
       const md = window.markdownit();
-      const matchingEntries = data.entries.filter((entry) => {
+      const matchingEntries = data.filter((entry) => {
         const descRendered = md.render(entry.desc).toLowerCase();
         const descIncludesSearchTerm = descRendered.includes(searchTerm);
         const shortUrlIncludesSearchTerm = entry.shortUrl && entry.shortUrl.toLowerCase().includes(searchTerm);
