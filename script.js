@@ -1,10 +1,31 @@
 function searchPhr() {
   const searchTerm = document.getElementById("search-bar").value.toLowerCase();
   const resultDiv = document.getElementById("result");
+  const infoDiv = document.getElementbyId("info");
   resultDiv.innerHTML = "";
+  infoDiv.innerHTML = "";
 
   // Set up the Trello API endpoint URL
   const apiUrl = `https://api.trello.com/1/lists/661ac877716e10351d2484e7/cards`;
+  const apiUrlInfo = `https://api.trello.com/1/cards/SQF8GW0h`
+
+  fetch(apiUrlInfo)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("HTTP error " + response.status);
+      }
+      return response.json();
+    })
+    .then((data) => {
+      const md = window.markdownit()
+      const matchingEntries = data.filter((entry) => {
+        const descRendered = md.render(entry.desc).toLowerCase()
+        infoDiv.innerHTML = += `
+          <div>
+            <p>${descRendered}</p>
+          </div>
+        `;
+      }}
 
   // Make the request to the Trello API
   fetch(apiUrl)
